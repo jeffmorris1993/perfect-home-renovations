@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/layout/header";
 import { Brand } from "@/components/ui/logo";
 import { Reveal } from "@/components/ui/reveal";
-import { FinalCta, IxRail, Photo } from "@/components/sections/shared";
+import { FinalCta, IxRail } from "@/components/sections/shared";
 import { BeforeAfter } from "@/components/gallery/before-after";
 import { ProjectGrid, type Project } from "@/components/gallery/project-grid";
 import { baPairs, pick } from "@/lib/portfolio";
@@ -68,79 +68,11 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* FEATURED */}
-      <section className="section bg-white">
-        <div className="container">
-          <div className="ix">
-            <IxRail num="01" label="A closer look" />
-            <Reveal>
-              <h2 className="h1">A closer look at the details.</h2>
-              <p className="lead mt-m">
-                Reworked main floors, new kitchens and baths, refinished
-                floors, and rebuilt exteriors, photographed on completion.
-              </p>
-            </Reveal>
-          </div>
-          <Reveal className="pf-hero">
-            <figure>
-              <Photo
-                photo={pick("kitchens", 1)}
-                sizes="(min-width: 1180px) 1080px, 96vw"
-                alt="Completed kitchen renovation in Metro Detroit"
-                eager
-              />
-              <figcaption>
-                <span className="fw-cap">Recent completed work</span>
-                <span className="fw-sub">Metro Detroit, MI</span>
-              </figcaption>
-            </figure>
-          </Reveal>
-          <div className="grid cols-3 pf-det-grid trio mt-l" style={{ "--g": "22px" } as React.CSSProperties}>
-            <Reveal>
-              <figure className="pf-det">
-                <Photo
-                  photo={pick("bathrooms", 2)}
-                  sizes="(min-width: 900px) 373px, (min-width: 620px) 50vw, 92vw"
-                  alt="Completed primary bathroom remodel"
-                />
-                <figcaption className="fw-sub">
-                  Primary bath · Custom tile &amp; modern fixtures
-                </figcaption>
-              </figure>
-            </Reveal>
-            <Reveal>
-              <figure className="pf-det">
-                <Photo
-                  photo={pick("stairs", 1)}
-                  sizes="(min-width: 900px) 373px, (min-width: 620px) 50vw, 92vw"
-                  alt="Rebuilt staircase with new railings"
-                />
-                <figcaption className="fw-sub">
-                  Stairs · Rebuilt treads &amp; railings
-                </figcaption>
-              </figure>
-            </Reveal>
-            <Reveal>
-              <figure className="pf-det">
-                <Photo
-                  photo={pick("exterior", 1)}
-                  sizes="(min-width: 900px) 373px, (min-width: 620px) 50vw, 92vw"
-                  alt="Renovated home exterior"
-                />
-                <figcaption className="fw-sub">
-                  Exterior · Full facade renovation
-                </figcaption>
-              </figure>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
       {/* BEFORE & AFTER */}
       <section className="section bg-ink">
         <div className="container">
           <div className="ix">
-            <IxRail num="02" label="Before and after" />
+            <IxRail num="01" label="Before and after" />
             <Reveal>
               <h2 className="h1">The same room, twice.</h2>
               <p className="lead mt-m">
@@ -168,7 +100,7 @@ export default function PortfolioPage() {
       <section className="section bg-paper">
         <div className="container">
           <div className="ix">
-            <IxRail num="03" label="Projects" />
+            <IxRail num="02" label="Projects" />
             <Reveal>
               <h2 className="h1">Projects by room.</h2>
             </Reveal>
