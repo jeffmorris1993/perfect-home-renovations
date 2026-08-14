@@ -1,0 +1,5592 @@
+[
+ {
+  "id": "kitchens-02d2cafe9f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b746d"
+ },
+ {
+  "id": "kitchens-03292a33c9",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#929490"
+ },
+ {
+  "id": "kitchens-05e0f9b47d",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#91877c"
+ },
+ {
+  "id": "kitchens-05e6d7c00c",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#947c6b"
+ },
+ {
+  "id": "kitchens-0ebf99e39f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#969389"
+ },
+ {
+  "id": "kitchens-10d06f73f6",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#84796c"
+ },
+ {
+  "id": "kitchens-11fd2a9ae0",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#797977"
+ },
+ {
+  "id": "kitchens-13810101e5",
+  "category": "kitchens",
+  "width": 828,
+  "height": 1792,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#646059"
+ },
+ {
+  "id": "kitchens-20f07411bc",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#99978d"
+ },
+ {
+  "id": "kitchens-266aac21d2",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#897f73"
+ },
+ {
+  "id": "kitchens-27e771576f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7571"
+ },
+ {
+  "id": "kitchens-2e50c7a0d0",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#897e75"
+ },
+ {
+  "id": "kitchens-2e9b88ef3f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#917f74"
+ },
+ {
+  "id": "kitchens-2f3d517329",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#85786f"
+ },
+ {
+  "id": "kitchens-31a89d07fc",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#959489"
+ },
+ {
+  "id": "kitchens-424c0f27bd",
+  "category": "kitchens",
+  "width": 828,
+  "height": 1792,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#393632"
+ },
+ {
+  "id": "kitchens-4b096ccff7",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6b6c6c"
+ },
+ {
+  "id": "kitchens-568e7412ea",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948778"
+ },
+ {
+  "id": "kitchens-59f7c8a94f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#897f71"
+ },
+ {
+  "id": "kitchens-5a50273dfd",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918780"
+ },
+ {
+  "id": "kitchens-6119a86c98",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948b79"
+ },
+ {
+  "id": "kitchens-6580eb91e4",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918778"
+ },
+ {
+  "id": "kitchens-6a00f24e63",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#92785f"
+ },
+ {
+  "id": "kitchens-730afe6ed3",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918e8b"
+ },
+ {
+  "id": "kitchens-79188c0e6d",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999289"
+ },
+ {
+  "id": "kitchens-7a1d0d1007",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#716961"
+ },
+ {
+  "id": "kitchens-7aa1af8ab1",
+  "category": "kitchens",
+  "width": 1440,
+  "height": 1799,
+  "aspect": 0.8004,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888379"
+ },
+ {
+  "id": "kitchens-7b0a10d9be",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#908b7b"
+ },
+ {
+  "id": "kitchens-83541acce0",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898683"
+ },
+ {
+  "id": "kitchens-85e1bb8268",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#86796b"
+ },
+ {
+  "id": "kitchens-86de71dec1",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#646276"
+ },
+ {
+  "id": "kitchens-8a575949f8",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8b8a"
+ },
+ {
+  "id": "kitchens-8b06ee093e",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8983"
+ },
+ {
+  "id": "kitchens-8cc7e23781",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e776f"
+ },
+ {
+  "id": "kitchens-8f7fac4dcd",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918e89"
+ },
+ {
+  "id": "kitchens-9f2949189a",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#89847b"
+ },
+ {
+  "id": "kitchens-9fbbf6f32d",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b857c"
+ },
+ {
+  "id": "kitchens-a781ba832b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81796f"
+ },
+ {
+  "id": "kitchens-a820ddb96f",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948f80"
+ },
+ {
+  "id": "kitchens-ac8830b045",
+  "category": "kitchens",
+  "width": 1170,
+  "height": 2532,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6a655c"
+ },
+ {
+  "id": "kitchens-ad164e75a1",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#818584"
+ },
+ {
+  "id": "kitchens-ad4fbd137b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878784"
+ },
+ {
+  "id": "kitchens-b17074ff62",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#958980"
+ },
+ {
+  "id": "kitchens-b47b7dd694",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898882"
+ },
+ {
+  "id": "kitchens-ba919feb02",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8a8b86"
+ },
+ {
+  "id": "kitchens-c0639fb2be",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#727178"
+ },
+ {
+  "id": "kitchens-c4df8933de",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8f89"
+ },
+ {
+  "id": "kitchens-ca9eec6f9b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f7c71"
+ },
+ {
+  "id": "kitchens-cd6166576a",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#766f65"
+ },
+ {
+  "id": "kitchens-ce3f8058b2",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7971"
+ },
+ {
+  "id": "kitchens-d0ff3f394b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#867d6f"
+ },
+ {
+  "id": "kitchens-d23b4e9e59",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a856f"
+ },
+ {
+  "id": "kitchens-d398efd84b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877c75"
+ },
+ {
+  "id": "kitchens-d924ced21b",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6f6c65"
+ },
+ {
+  "id": "kitchens-e21e6b7806",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8680"
+ },
+ {
+  "id": "kitchens-e8019b95d1",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898273"
+ },
+ {
+  "id": "kitchens-ece4c4aeb0",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e877a"
+ },
+ {
+  "id": "kitchens-ed16bb9665",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#887f73"
+ },
+ {
+  "id": "kitchens-efc5a81e3e",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#867c77"
+ },
+ {
+  "id": "kitchens-f24b3eded7",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877b6f"
+ },
+ {
+  "id": "kitchens-f9ebfba5b6",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877d71"
+ },
+ {
+  "id": "kitchens-fa13e0c179",
+  "category": "kitchens",
+  "width": 1536,
+  "height": 2048,
+  "aspect": 0.75,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8c83"
+ },
+ {
+  "id": "kitchens-fbb42b158b",
+  "category": "kitchens",
+  "width": 1170,
+  "height": 2532,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#373029"
+ },
+ {
+  "id": "kitchens-fd0de631e0",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8f8e"
+ },
+ {
+  "id": "kitchens-fd4305e859",
+  "category": "kitchens",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8982"
+ },
+ {
+  "id": "bathrooms-000217f735",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#979082"
+ },
+ {
+  "id": "bathrooms-013894a76d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888780"
+ },
+ {
+  "id": "bathrooms-0252d120ac",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81837a"
+ },
+ {
+  "id": "bathrooms-02c1929e27",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858278"
+ },
+ {
+  "id": "bathrooms-0420d3bde6",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948d82"
+ },
+ {
+  "id": "bathrooms-0483560956",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#978e83"
+ },
+ {
+  "id": "bathrooms-06e09a97ef",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#989892"
+ },
+ {
+  "id": "bathrooms-0bb90388e4",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948f85"
+ },
+ {
+  "id": "bathrooms-109a633763",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8c84"
+ },
+ {
+  "id": "bathrooms-113e794c09",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918780"
+ },
+ {
+  "id": "bathrooms-1344d45e38",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#90958a"
+ },
+ {
+  "id": "bathrooms-147cea8b12",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8172"
+ },
+ {
+  "id": "bathrooms-14bad3c64f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#88887b"
+ },
+ {
+  "id": "bathrooms-1588949e56",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8a8783"
+ },
+ {
+  "id": "bathrooms-1589814d4d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b9a93"
+ },
+ {
+  "id": "bathrooms-164232b150",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a2a19b"
+ },
+ {
+  "id": "bathrooms-194d19ec94",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827c72"
+ },
+ {
+  "id": "bathrooms-1e7817d0b5",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#807a6a"
+ },
+ {
+  "id": "bathrooms-21111c5c6e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888479"
+ },
+ {
+  "id": "bathrooms-212606ec68",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#717166"
+ },
+ {
+  "id": "bathrooms-230d23a82e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#838178"
+ },
+ {
+  "id": "bathrooms-2608c61e2d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95958b"
+ },
+ {
+  "id": "bathrooms-263ba87dc6",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a7467"
+ },
+ {
+  "id": "bathrooms-2b38be045c",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8d8c"
+ },
+ {
+  "id": "bathrooms-2ba8957922",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8a80"
+ },
+ {
+  "id": "bathrooms-2bd571c342",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81827d"
+ },
+ {
+  "id": "bathrooms-2c437d711b",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#808784"
+ },
+ {
+  "id": "bathrooms-2c5b804c78",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 1200,
+  "aspect": 1.3333,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938c8a"
+ },
+ {
+  "id": "bathrooms-2cf12a200e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#90958a"
+ },
+ {
+  "id": "bathrooms-2d108e9489",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d9295"
+ },
+ {
+  "id": "bathrooms-2de7c7e26a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a79e96"
+ },
+ {
+  "id": "bathrooms-2e22ca5090",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8d87"
+ },
+ {
+  "id": "bathrooms-3061d0ca78",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#969792"
+ },
+ {
+  "id": "bathrooms-31f60da54f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999b94"
+ },
+ {
+  "id": "bathrooms-32af62c0bb",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a79e96"
+ },
+ {
+  "id": "bathrooms-33514717b6",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9f655a"
+ },
+ {
+  "id": "bathrooms-341eafffa3",
+  "category": "bathrooms",
+  "width": 1170,
+  "height": 2080,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b9e9a"
+ },
+ {
+  "id": "bathrooms-34e3a99094",
+  "category": "bathrooms",
+  "width": 1440,
+  "height": 1440,
+  "aspect": 1,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c756c"
+ },
+ {
+  "id": "bathrooms-3604848685",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f887c"
+ },
+ {
+  "id": "bathrooms-364eba107b",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d877c"
+ },
+ {
+  "id": "bathrooms-3650a0828d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 1200,
+  "aspect": 1.3333,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e9988"
+ },
+ {
+  "id": "bathrooms-368ca5b111",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918c8a"
+ },
+ {
+  "id": "bathrooms-3bd3c2cc2a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8a85"
+ },
+ {
+  "id": "bathrooms-3dfe98abca",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8982"
+ },
+ {
+  "id": "bathrooms-3ed7821e81",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e918b"
+ },
+ {
+  "id": "bathrooms-412ee80003",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#86877e"
+ },
+ {
+  "id": "bathrooms-43bbdc54ce",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#94918d"
+ },
+ {
+  "id": "bathrooms-4b7a09b9e1",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8d8c"
+ },
+ {
+  "id": "bathrooms-4d99b64245",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8e8d"
+ },
+ {
+  "id": "bathrooms-4e933ff7ff",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8d8c"
+ },
+ {
+  "id": "bathrooms-5294d5f34d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8c87"
+ },
+ {
+  "id": "bathrooms-53160c11b3",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#939692"
+ },
+ {
+  "id": "bathrooms-532d407a60",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8881"
+ },
+ {
+  "id": "bathrooms-55373ca878",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8774"
+ },
+ {
+  "id": "bathrooms-5576a2dbb0",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6c6c68"
+ },
+ {
+  "id": "bathrooms-584057fd0a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a978f"
+ },
+ {
+  "id": "bathrooms-5a1a315992",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a26759"
+ },
+ {
+  "id": "bathrooms-5af52d7af9",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#807a6a"
+ },
+ {
+  "id": "bathrooms-5e3a0b082a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#94918d"
+ },
+ {
+  "id": "bathrooms-5f2192ede4",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888d8e"
+ },
+ {
+  "id": "bathrooms-5f281d41f9",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b857f"
+ },
+ {
+  "id": "bathrooms-5fdce2a5dd",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d918b"
+ },
+ {
+  "id": "bathrooms-614a3b2171",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8579"
+ },
+ {
+  "id": "bathrooms-66cb3520c2",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938a7c"
+ },
+ {
+  "id": "bathrooms-6806f4dca4",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81786b"
+ },
+ {
+  "id": "bathrooms-687f891a8d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#76756a"
+ },
+ {
+  "id": "bathrooms-68d7280054",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e887e"
+ },
+ {
+  "id": "bathrooms-69bfe15087",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827c72"
+ },
+ {
+  "id": "bathrooms-69e71b0878",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868680"
+ },
+ {
+  "id": "bathrooms-6a28099f35",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#96948d"
+ },
+ {
+  "id": "bathrooms-6aa3afef8c",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#817f77"
+ },
+ {
+  "id": "bathrooms-6d6f54ce0f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7e77"
+ },
+ {
+  "id": "bathrooms-6ea52a88d9",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e7b5d"
+ },
+ {
+  "id": "bathrooms-6f2fb4c50c",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95978f"
+ },
+ {
+  "id": "bathrooms-6ffd351b04",
+  "category": "bathrooms",
+  "width": 1440,
+  "height": 1800,
+  "aspect": 0.8,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878784"
+ },
+ {
+  "id": "bathrooms-7838d9ff0a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#808078"
+ },
+ {
+  "id": "bathrooms-796b235840",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#92918c"
+ },
+ {
+  "id": "bathrooms-79dd9249d8",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8a80"
+ },
+ {
+  "id": "bathrooms-7a809f049e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a7771"
+ },
+ {
+  "id": "bathrooms-7ac218fae5",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8078"
+ },
+ {
+  "id": "bathrooms-7d1be3830f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d867c"
+ },
+ {
+  "id": "bathrooms-80a42dfdc9",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#90918a"
+ },
+ {
+  "id": "bathrooms-80f16ff750",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8b7d"
+ },
+ {
+  "id": "bathrooms-8603de3229",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#92918c"
+ },
+ {
+  "id": "bathrooms-8c15a1fe1b",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8a81"
+ },
+ {
+  "id": "bathrooms-8eedeb0c26",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#87817a"
+ },
+ {
+  "id": "bathrooms-9009d8b0b4",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938a7c"
+ },
+ {
+  "id": "bathrooms-90f2c146f1",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a948b"
+ },
+ {
+  "id": "bathrooms-92d9656fd7",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9790"
+ },
+ {
+  "id": "bathrooms-93cbf47aa0",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e9d9c"
+ },
+ {
+  "id": "bathrooms-948a90f862",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#96948d"
+ },
+ {
+  "id": "bathrooms-9683d4fc2d",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#948f85"
+ },
+ {
+  "id": "bathrooms-9c376bea2e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b9a93"
+ },
+ {
+  "id": "bathrooms-a09f8a110c",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d9295"
+ },
+ {
+  "id": "bathrooms-a127701943",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7f7e7d"
+ },
+ {
+  "id": "bathrooms-a133a2b770",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5b4f41"
+ },
+ {
+  "id": "bathrooms-a35e1bc854",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#77634e"
+ },
+ {
+  "id": "bathrooms-a3a5dd3cd3",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95978f"
+ },
+ {
+  "id": "bathrooms-a3a6035272",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8a8176"
+ },
+ {
+  "id": "bathrooms-a6cded858e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938572"
+ },
+ {
+  "id": "bathrooms-ab30d5fbfb",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868681"
+ },
+ {
+  "id": "bathrooms-ab88299a78",
+  "category": "bathrooms",
+  "width": 1440,
+  "height": 1440,
+  "aspect": 1,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9d98"
+ },
+ {
+  "id": "bathrooms-ac20914c13",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827d74"
+ },
+ {
+  "id": "bathrooms-acccbfd606",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#919189"
+ },
+ {
+  "id": "bathrooms-ad18525281",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8c87"
+ },
+ {
+  "id": "bathrooms-ad6ebd4ebc",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898679"
+ },
+ {
+  "id": "bathrooms-aeb82468eb",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a948b"
+ },
+ {
+  "id": "bathrooms-b008225289",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#82847c"
+ },
+ {
+  "id": "bathrooms-b033a7287e",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858278"
+ },
+ {
+  "id": "bathrooms-b1a435b3ed",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#625d53"
+ },
+ {
+  "id": "bathrooms-b229a9dee8",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a1a29e"
+ },
+ {
+  "id": "bathrooms-b28de47a6a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8172"
+ },
+ {
+  "id": "bathrooms-b340ebae7b",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#818076"
+ },
+ {
+  "id": "bathrooms-b6afc87acf",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918c83"
+ },
+ {
+  "id": "bathrooms-b6e92968ed",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 1200,
+  "aspect": 1.3333,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938c8a"
+ },
+ {
+  "id": "bathrooms-b789a33253",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a1a39e"
+ },
+ {
+  "id": "bathrooms-b8bc3da866",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#828078"
+ },
+ {
+  "id": "bathrooms-b93d1f5183",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e9d9c"
+ },
+ {
+  "id": "bathrooms-b9574dc84f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#87847c"
+ },
+ {
+  "id": "bathrooms-b9e1dea7b8",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#857f7c"
+ },
+ {
+  "id": "bathrooms-bea50da3ea",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8078"
+ },
+ {
+  "id": "bathrooms-bebf0054a2",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#96968b"
+ },
+ {
+  "id": "bathrooms-bf413bbfe4",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#91948d"
+ },
+ {
+  "id": "bathrooms-c01d2a30ef",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888881"
+ },
+ {
+  "id": "bathrooms-c13d6874bb",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8e86"
+ },
+ {
+  "id": "bathrooms-c5ea463d67",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#808784"
+ },
+ {
+  "id": "bathrooms-c744e5e5f2",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#99988f"
+ },
+ {
+  "id": "bathrooms-c96b7f3b28",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7d7567"
+ },
+ {
+  "id": "bathrooms-cb587d720d",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898d90"
+ },
+ {
+  "id": "bathrooms-cb5c1edcb0",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#949287"
+ },
+ {
+  "id": "bathrooms-cef4a40265",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918780"
+ },
+ {
+  "id": "bathrooms-d11c27b0de",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81827d"
+ },
+ {
+  "id": "bathrooms-d1c9660311",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5b4f41"
+ },
+ {
+  "id": "bathrooms-d4ede86ed6",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898681"
+ },
+ {
+  "id": "bathrooms-d649b88388",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#918b83"
+ },
+ {
+  "id": "bathrooms-d764fc7929",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#857f7c"
+ },
+ {
+  "id": "bathrooms-d7ed87f3d9",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878883"
+ },
+ {
+  "id": "bathrooms-d81d8f1f07",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8982"
+ },
+ {
+  "id": "bathrooms-d9fb889e6f",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7d7b77"
+ },
+ {
+  "id": "bathrooms-dc61d5e987",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8274"
+ },
+ {
+  "id": "bathrooms-dd8a9c7402",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a29786"
+ },
+ {
+  "id": "bathrooms-dda7ca1d4f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888986"
+ },
+ {
+  "id": "bathrooms-de4b116b7a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#919189"
+ },
+ {
+  "id": "bathrooms-df5912409a",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888780"
+ },
+ {
+  "id": "bathrooms-e061596812",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9790"
+ },
+ {
+  "id": "bathrooms-e33409c185",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95908e"
+ },
+ {
+  "id": "bathrooms-e4d0780c56",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868680"
+ },
+ {
+  "id": "bathrooms-e8266ba384",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868780"
+ },
+ {
+  "id": "bathrooms-e85c45333f",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#979796"
+ },
+ {
+  "id": "bathrooms-e902b707c3",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8c85"
+ },
+ {
+  "id": "bathrooms-e9cb4cfa9b",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d918b"
+ },
+ {
+  "id": "bathrooms-ea1b0f3584",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c7667"
+ },
+ {
+  "id": "bathrooms-ea3c544651",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8c85"
+ },
+ {
+  "id": "bathrooms-eac0ceb126",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a1a39e"
+ },
+ {
+  "id": "bathrooms-ec72f50c7c",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a1a29e"
+ },
+ {
+  "id": "bathrooms-ee211e34da",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#81837a"
+ },
+ {
+  "id": "bathrooms-eee5c19472",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#93938b"
+ },
+ {
+  "id": "bathrooms-ef9256b2d7",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95958b"
+ },
+ {
+  "id": "bathrooms-f1dae729db",
+  "category": "bathrooms",
+  "width": 1206,
+  "height": 2144,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#959183"
+ },
+ {
+  "id": "bathrooms-f224f28380",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#817f77"
+ },
+ {
+  "id": "bathrooms-f4e4675db0",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a8d84"
+ },
+ {
+  "id": "bathrooms-f52143ca40",
+  "category": "bathrooms",
+  "width": 1440,
+  "height": 1800,
+  "aspect": 0.8,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a0a09a"
+ },
+ {
+  "id": "bathrooms-f87575fcea",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#88887b"
+ },
+ {
+  "id": "bathrooms-fdf443cef1",
+  "category": "bathrooms",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#85847b"
+ },
+ {
+  "id": "basements-0063407ad9",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#808178"
+ },
+ {
+  "id": "basements-01dda105cc",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878983"
+ },
+ {
+  "id": "basements-0514454258",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877769"
+ },
+ {
+  "id": "basements-0a5ccf4d38",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c7d75"
+ },
+ {
+  "id": "basements-0bcc57a085",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#80796d"
+ },
+ {
+  "id": "basements-0cb2af7c39",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#837665"
+ },
+ {
+  "id": "basements-104bf85212",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7d72"
+ },
+ {
+  "id": "basements-14a5452ecb",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858178"
+ },
+ {
+  "id": "basements-1597fc27d3",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9d9b90"
+ },
+ {
+  "id": "basements-15d6723d3a",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#b0a393"
+ },
+ {
+  "id": "basements-15d9f5b5e3",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#777369"
+ },
+ {
+  "id": "basements-15fcfa2848",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858178"
+ },
+ {
+  "id": "basements-17ab89a98a",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c877d"
+ },
+ {
+  "id": "basements-1ae0dfc8a8",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#867e70"
+ },
+ {
+  "id": "basements-1b091093c9",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#77776d"
+ },
+ {
+  "id": "basements-1cdd252244",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c7a73"
+ },
+ {
+  "id": "basements-1f12eba7d0",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6e6a68"
+ },
+ {
+  "id": "basements-23ecd9a68d",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827c6f"
+ },
+ {
+  "id": "basements-26419c1e00",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#746b5e"
+ },
+ {
+  "id": "basements-26c87b9417",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9f8e76"
+ },
+ {
+  "id": "basements-2825c338c2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8a82"
+ },
+ {
+  "id": "basements-3041f1ee5f",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#837c77"
+ },
+ {
+  "id": "basements-316a928a0c",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c7872"
+ },
+ {
+  "id": "basements-340aedd44c",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#716a66"
+ },
+ {
+  "id": "basements-3abd07c03b",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#79756e"
+ },
+ {
+  "id": "basements-3bd639f4a0",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7f7f"
+ },
+ {
+  "id": "basements-3c282659f8",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847666"
+ },
+ {
+  "id": "basements-40597bac78",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c786e"
+ },
+ {
+  "id": "basements-40741f80c4",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#94938b"
+ },
+ {
+  "id": "basements-44acf4763a",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e887b"
+ },
+ {
+  "id": "basements-44b563a0c1",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888780"
+ },
+ {
+  "id": "basements-458d283290",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b746d"
+ },
+ {
+  "id": "basements-46bbba6bef",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b8e8d"
+ },
+ {
+  "id": "basements-483b913002",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c7e6a"
+ },
+ {
+  "id": "basements-587c904c0f",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6e604d"
+ },
+ {
+  "id": "basements-5c8efae768",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#887d76"
+ },
+ {
+  "id": "basements-60f5a08429",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#95928a"
+ },
+ {
+  "id": "basements-641869e5af",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#928e7e"
+ },
+ {
+  "id": "basements-67d0b16025",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#696c71"
+ },
+ {
+  "id": "basements-687f891a8d",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#76756a"
+ },
+ {
+  "id": "basements-6d6f54ce0f",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7e77"
+ },
+ {
+  "id": "basements-6d967ab0e1",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#80807f"
+ },
+ {
+  "id": "basements-6e4bd17189",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827b71"
+ },
+ {
+  "id": "basements-70e727e1a2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#838178"
+ },
+ {
+  "id": "basements-73756f8b0e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#92938f"
+ },
+ {
+  "id": "basements-7517257db2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847e74"
+ },
+ {
+  "id": "basements-7a1d0d1007",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#716961"
+ },
+ {
+  "id": "basements-7db62acf4e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#877563"
+ },
+ {
+  "id": "basements-83174baf19",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847e75"
+ },
+ {
+  "id": "basements-8ee6890357",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f9087"
+ },
+ {
+  "id": "basements-906be1adcd",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8d86"
+ },
+ {
+  "id": "basements-90bd142be2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8981"
+ },
+ {
+  "id": "basements-9331e6109e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6c6b64"
+ },
+ {
+  "id": "basements-95f260a6db",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#66655e"
+ },
+ {
+  "id": "basements-997cab4d27",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999286"
+ },
+ {
+  "id": "basements-9a7aceacd2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7766"
+ },
+ {
+  "id": "basements-9f7651d3fd",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#747067"
+ },
+ {
+  "id": "basements-a1f06b53cd",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7d8d"
+ },
+ {
+  "id": "basements-a2dcd17c48",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#726c56"
+ },
+ {
+  "id": "basements-a9815ef044",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#868480"
+ },
+ {
+  "id": "basements-a9e89fff13",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999891"
+ },
+ {
+  "id": "basements-ad4fbd137b",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878784"
+ },
+ {
+  "id": "basements-ad9c02c891",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#94928b"
+ },
+ {
+  "id": "basements-b34a85377c",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8e8e"
+ },
+ {
+  "id": "basements-b5a4a3b53e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7d746a"
+ },
+ {
+  "id": "basements-b6480a7987",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827d75"
+ },
+ {
+  "id": "basements-b817741e84",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#71706b"
+ },
+ {
+  "id": "basements-ba6e15a08d",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#82837e"
+ },
+ {
+  "id": "basements-bcf337f99c",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#908577"
+ },
+ {
+  "id": "basements-be0f4ea694",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#89857b"
+ },
+ {
+  "id": "basements-c06693ff3e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8a867d"
+ },
+ {
+  "id": "basements-c07dc0e12e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8e84"
+ },
+ {
+  "id": "basements-c3cedfdcc6",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7c7671"
+ },
+ {
+  "id": "basements-c510bae251",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6c6b65"
+ },
+ {
+  "id": "basements-c7ad2533cb",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#747269"
+ },
+ {
+  "id": "basements-c8eb4ed6e1",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#807d76"
+ },
+ {
+  "id": "basements-ca02cf89eb",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8d81"
+ },
+ {
+  "id": "basements-ca92ee7dfe",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f877c"
+ },
+ {
+  "id": "basements-cb5c1edcb0",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#949287"
+ },
+ {
+  "id": "basements-ce3f8058b2",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7971"
+ },
+ {
+  "id": "basements-ce76f59917",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#87867d"
+ },
+ {
+  "id": "basements-cefd9caeaa",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#989891"
+ },
+ {
+  "id": "basements-cf7dc34661",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7b74"
+ },
+ {
+  "id": "basements-d2047cd85b",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888781"
+ },
+ {
+  "id": "basements-d9173663fd",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e9074"
+ },
+ {
+  "id": "basements-d96f62c567",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#676057"
+ },
+ {
+  "id": "basements-db4de08af9",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#767570"
+ },
+ {
+  "id": "basements-db5305422a",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7d786f"
+ },
+ {
+  "id": "basements-e02f2ab89d",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#585652"
+ },
+ {
+  "id": "basements-e1b36a5cd3",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a39f95"
+ },
+ {
+  "id": "basements-e41208f3b4",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#898985"
+ },
+ {
+  "id": "basements-e6afcd9c16",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8777"
+ },
+ {
+  "id": "basements-e9ee8c4f26",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858685"
+ },
+ {
+  "id": "basements-eaf4970859",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#787167"
+ },
+ {
+  "id": "basements-ef4b60d19b",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a726c"
+ },
+ {
+  "id": "basements-f025dbba38",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#96958d"
+ },
+ {
+  "id": "basements-f08ad7a15a",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8270"
+ },
+ {
+  "id": "basements-f1a013b38c",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#716a5d"
+ },
+ {
+  "id": "basements-f212aeabf9",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#79746f"
+ },
+ {
+  "id": "basements-fa4ce3a4de",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#827f75"
+ },
+ {
+  "id": "basements-fdf443cef1",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#85847b"
+ },
+ {
+  "id": "basements-fe4f4aeb0e",
+  "category": "basements",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c867d"
+ },
+ {
+  "id": "basements-ffbe39427b",
+  "category": "basements",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a69988"
+ },
+ {
+  "id": "stairs-03ae9c13bf",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847d6d"
+ },
+ {
+  "id": "stairs-08525aaf80",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e8871"
+ },
+ {
+  "id": "stairs-0a5d04d6ea",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a19d94"
+ },
+ {
+  "id": "stairs-0b5f6af778",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#957c64"
+ },
+ {
+  "id": "stairs-0f5a5d7f23",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8b7865"
+ },
+ {
+  "id": "stairs-12f4dcd1b6",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#93846f"
+ },
+ {
+  "id": "stairs-136b352b91",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e887f"
+ },
+ {
+  "id": "stairs-18dd42d4fc",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#897c73"
+ },
+ {
+  "id": "stairs-2747ca5f2d",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8378"
+ },
+ {
+  "id": "stairs-2b97dfea29",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c7a62"
+ },
+ {
+  "id": "stairs-380285eecc",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#87847b"
+ },
+ {
+  "id": "stairs-38f0a08397",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9f805e"
+ },
+ {
+  "id": "stairs-3baf83453d",
+  "category": "stairs",
+  "width": 1440,
+  "height": 1800,
+  "aspect": 0.8,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#888983"
+ },
+ {
+  "id": "stairs-3c42e17c48",
+  "category": "stairs",
+  "width": 768,
+  "height": 1024,
+  "aspect": 0.75,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#908c7d"
+ },
+ {
+  "id": "stairs-42dc117f49",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#958b7e"
+ },
+ {
+  "id": "stairs-4495ac6a66",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#847a68"
+ },
+ {
+  "id": "stairs-488576e7ee",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b8f7d"
+ },
+ {
+  "id": "stairs-48ec5ec7ec",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a49f95"
+ },
+ {
+  "id": "stairs-4b10393565",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a69884"
+ },
+ {
+  "id": "stairs-4b3a5baa37",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8579"
+ },
+ {
+  "id": "stairs-53e9510ed8",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8a8174"
+ },
+ {
+  "id": "stairs-5ee8e67c70",
+  "category": "stairs",
+  "width": 1170,
+  "height": 2532,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#645f56"
+ },
+ {
+  "id": "stairs-60e046f0d1",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#886c55"
+ },
+ {
+  "id": "stairs-68c2365a9f",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a19c94"
+ },
+ {
+  "id": "stairs-6b573f2c85",
+  "category": "stairs",
+  "width": 1440,
+  "height": 1440,
+  "aspect": 1,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#978f82"
+ },
+ {
+  "id": "stairs-6b89f5ce0d",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8c84"
+ },
+ {
+  "id": "stairs-79df7fe589",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a09c95"
+ },
+ {
+  "id": "stairs-82a0aaeb07",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#848078"
+ },
+ {
+  "id": "stairs-846dfa8c93",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#94836d"
+ },
+ {
+  "id": "stairs-85f203ac1b",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8270"
+ },
+ {
+  "id": "stairs-8733480f07",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a09b94"
+ },
+ {
+  "id": "stairs-8b84b68c40",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f8e86"
+ },
+ {
+  "id": "stairs-8ef735f821",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#90867b"
+ },
+ {
+  "id": "stairs-9bb9762c37",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999690"
+ },
+ {
+  "id": "stairs-a4eb4ed271",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878378"
+ },
+ {
+  "id": "stairs-a58c105c63",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999896"
+ },
+ {
+  "id": "stairs-a5ca06f417",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9b8f80"
+ },
+ {
+  "id": "stairs-a66b16b4b0",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8c8376"
+ },
+ {
+  "id": "stairs-add6b787ef",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7a6e60"
+ },
+ {
+  "id": "stairs-ae5de73179",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#999590"
+ },
+ {
+  "id": "stairs-bc6abbbdef",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b726e"
+ },
+ {
+  "id": "stairs-be122e3ac3",
+  "category": "stairs",
+  "width": 1440,
+  "height": 1800,
+  "aspect": 0.8,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#92918c"
+ },
+ {
+  "id": "stairs-ca92ee7dfe",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8f877c"
+ },
+ {
+  "id": "stairs-cf3d238043",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#938d83"
+ },
+ {
+  "id": "stairs-d733c236b0",
+  "category": "stairs",
+  "width": 1536,
+  "height": 2048,
+  "aspect": 0.75,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8c86"
+ },
+ {
+  "id": "stairs-db9c9e1365",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858075"
+ },
+ {
+  "id": "stairs-e30f47b405",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9487"
+ },
+ {
+  "id": "stairs-e6ee930cbc",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#83807f"
+ },
+ {
+  "id": "stairs-eeb1671f18",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9c8776"
+ },
+ {
+  "id": "stairs-fac78073fd",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d8375"
+ },
+ {
+  "id": "stairs-fe5738ffaa",
+  "category": "stairs",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#909593"
+ },
+ {
+  "id": "fireplace-069ea4f6cd",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9b98"
+ },
+ {
+  "id": "fireplace-08a656e526",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9d8d79"
+ },
+ {
+  "id": "fireplace-0a5bdbee4e",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a39584"
+ },
+ {
+  "id": "fireplace-2dac400970",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7873"
+ },
+ {
+  "id": "fireplace-33119ca54e",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#857265"
+ },
+ {
+  "id": "fireplace-3cdb770ea9",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9c928a"
+ },
+ {
+  "id": "fireplace-552026f2f6",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#817671"
+ },
+ {
+  "id": "fireplace-6dc0e76c7b",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6d6d81"
+ },
+ {
+  "id": "fireplace-6e1dc0e755",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7f7f79"
+ },
+ {
+  "id": "fireplace-751437ec11",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5c544e"
+ },
+ {
+  "id": "fireplace-7cd35062a1",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7e7f81"
+ },
+ {
+  "id": "fireplace-880ec48790",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8e8c84"
+ },
+ {
+  "id": "fireplace-957570cee4",
+  "category": "fireplace",
+  "width": 1440,
+  "height": 1440,
+  "aspect": 1,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6a6862"
+ },
+ {
+  "id": "fireplace-9a7aceacd2",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7b7766"
+ },
+ {
+  "id": "fireplace-aeb9699d7f",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#917e73"
+ },
+ {
+  "id": "fireplace-b06626ec4c",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#867a6b"
+ },
+ {
+  "id": "fireplace-b564041258",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#91928b"
+ },
+ {
+  "id": "fireplace-bf40026062",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#807467"
+ },
+ {
+  "id": "fireplace-d02ed5670f",
+  "category": "fireplace",
+  "width": 1179,
+  "height": 2096,
+  "aspect": 0.5625,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#a4a397"
+ },
+ {
+  "id": "fireplace-d89013aed9",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d837d"
+ },
+ {
+  "id": "fireplace-e5166af2db",
+  "category": "fireplace",
+  "width": 1440,
+  "height": 1800,
+  "aspect": 0.8,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#75756e"
+ },
+ {
+  "id": "fireplace-e6c4cd4ff0",
+  "category": "fireplace",
+  "width": 1440,
+  "height": 1439,
+  "aspect": 1.0007,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#737476"
+ },
+ {
+  "id": "fireplace-ebe6234e57",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9e988c"
+ },
+ {
+  "id": "fireplace-eee2123cb7",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#808687"
+ },
+ {
+  "id": "fireplace-f243a9ecd4",
+  "category": "fireplace",
+  "width": 1179,
+  "height": 2556,
+  "aspect": 0.4613,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#63615b"
+ },
+ {
+  "id": "fireplace-f52f495055",
+  "category": "fireplace",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#8d7c6e"
+ },
+ {
+  "id": "fireplace-f7f936f5a3",
+  "category": "fireplace",
+  "width": 828,
+  "height": 1792,
+  "aspect": 0.4621,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#4a4749"
+ },
+ {
+  "id": "exterior-248da0e51f",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6e7470"
+ },
+ {
+  "id": "exterior-2592633d68",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#878c91"
+ },
+ {
+  "id": "exterior-28f85624cc",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#43728c"
+ },
+ {
+  "id": "exterior-3164b3a808",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6a7c8b"
+ },
+ {
+  "id": "exterior-3e0d212a04",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#9a9a97"
+ },
+ {
+  "id": "exterior-3ebae1fef7",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#6b6e72"
+ },
+ {
+  "id": "exterior-549482af9b",
+  "category": "exterior",
+  "width": 1440,
+  "height": 1440,
+  "aspect": 1,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#766d66"
+ },
+ {
+  "id": "exterior-939fd41576",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#707171"
+ },
+ {
+  "id": "exterior-a7ed673a08",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#302b29"
+ },
+ {
+  "id": "exterior-b58bb77732",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#37322c"
+ },
+ {
+  "id": "exterior-bd12b8fa37",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7d7f7f"
+ },
+ {
+  "id": "exterior-c291686762",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#44728a"
+ },
+ {
+  "id": "exterior-c4b4ae249a",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#657a83"
+ },
+ {
+  "id": "exterior-c9b2600a93",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#746e68"
+ },
+ {
+  "id": "exterior-cfc0bc2ad5",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#858a8a"
+ },
+ {
+  "id": "exterior-d3da97f5e7",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#7f8070"
+ },
+ {
+  "id": "exterior-e64557a99f",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#767f7f"
+ },
+ {
+  "id": "exterior-ea562e1d1e",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#5a6061"
+ },
+ {
+  "id": "exterior-f0c6d73a22",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#100e0b"
+ },
+ {
+  "id": "exterior-f7aab1a00a",
+  "category": "exterior",
+  "width": 1600,
+  "height": 2133,
+  "aspect": 0.7501,
+  "widths": [
+   480,
+   960,
+   1600
+  ],
+  "color": "#707878"
+ }
+]
