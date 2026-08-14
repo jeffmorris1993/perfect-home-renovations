@@ -1,4 +1,5 @@
 import manifest from "./portfolio-manifest.json";
+import baManifest from "./ba-manifest.json";
 
 export type PortfolioCategory =
   | "kitchens"
@@ -52,4 +53,29 @@ export function srcSetFor(p: PortfolioPhoto): string {
 export function pick(c: PortfolioCategory, n: number): PortfolioPhoto {
   const list = byCategory(c);
   return list[n % list.length];
+}
+
+/* ---- Before / after pairs ---- */
+
+export interface BaImage {
+  id: string;
+  width: number;
+  height: number;
+  widths: number[];
+}
+
+export interface BaPair {
+  pair: number;
+  before: BaImage;
+  after: BaImage;
+}
+
+export const baPairs = baManifest as BaPair[];
+
+export function baSrc(img: BaImage, w: number): string {
+  return `/img/portfolio/before-after/${img.id}-w${w}.webp`;
+}
+
+export function baSrcSet(img: BaImage): string {
+  return img.widths.map((w) => `${baSrc(img, w)} ${w}w`).join(", ");
 }

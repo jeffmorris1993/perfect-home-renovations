@@ -71,8 +71,7 @@ export function Hero({ brand }: { brand: React.ReactNode }) {
         <nav className="film-nav">
           <Link href="/services">Services</Link>
           <Link href="/portfolio">Portfolio</Link>
-          <Link href="/portfolio">Projects</Link>
-          <Link href="/">About</Link>
+          <Link href="/gallery">Gallery</Link>
         </nav>
         <Link className="film-cta" href="/estimate">
           Get a Free Estimate
@@ -91,13 +90,20 @@ export function Hero({ brand }: { brand: React.ReactNode }) {
       <nav className={menuOpen ? "film-mob open" : "film-mob"}>
         <Link href="/services">Services</Link>
         <Link href="/portfolio">Portfolio</Link>
+        <Link href="/gallery">Gallery</Link>
         <Link href="/estimate">Free Estimate</Link>
         <a href={site.phoneHref}>{site.phoneDisplay}</a>
       </nav>
       <div className="film-copy">
         <h1 className="film-title">
-          <span className="fl">Quality Renovations</span>
-          <span className="fl fl-2">Done Right</span>
+          <img
+            className="fl film-lockup"
+            src="/img/hero-lockup.png"
+            alt="Quality Renovations Done Right!"
+            width={1327}
+            height={314}
+            fetchPriority="high"
+          />
         </h1>
         <p className="film-sub">
           Kitchens · Bathrooms · Basements · Full-Home Renovations

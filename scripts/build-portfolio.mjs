@@ -11,7 +11,7 @@
  */
 import sharp from "sharp";
 import { createHash } from "node:crypto";
-import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
+import { readdir, readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
@@ -29,6 +29,10 @@ const SOURCES = [
   { dir: "wetransfer_exterior-home_2026-08-12_1634", category: "exterior" },
 ];
 
+// Before/after shoots: files pair up sequentially (odd = before, even = after).
+const BA_DIR = "wetransfer_before-and-after_2026-08-13_1436";
+const BA_MANIFEST = path.join(ROOT, "lib/ba-manifest.json");
+
 const WIDTHS = [480, 960, 1600];
 const OUT = path.join(ROOT, "public/img/portfolio");
 const MANIFEST = path.join(ROOT, "lib/portfolio-manifest.json");
@@ -43,6 +47,7 @@ const seenIds = new Set();
 let processed = 0;
 let skipped = 0;
 let duplicates = 0;
+let screenshots = 0;
 
 for (const { dir, category } of SOURCES) {
   const abs = path.join(ROOT, dir);
@@ -73,9 +78,28 @@ for (const { dir, category } of SOURCES) {
         existsSync(path.join(OUT, category, `${id}-w${w}.webp`)),
       )
     ) {
+      // Phone screenshots (~9:19.5, aspect ≈2.16) don't belong in the
+      // gallery; 9:16 verticals (1.78) are real photos and stay.
+      if (existing.height / existing.width > 2) {
+        screenshots++;
+        for (const w of existing.widths) {
+          await rm(path.join(OUT, category, `${id}-w${w}.webp`), {
+            force: true,
+          });
+        }
+        continue;
+      }
       entries.push(existing);
       skipped++;
       continue;
+    }
+
+    {
+      const meta = await sharp(buf).rotate().metadata();
+      if (meta.height / meta.width > 2) {
+        screenshots++;
+        continue;
+      }
     }
 
     // .rotate() with no args applies EXIF orientation; output has no EXIF.
@@ -117,6 +141,58 @@ for (const { dir, category } of SOURCES) {
 
 // Stable order: category display order, then id (content order within a
 // folder isn't meaningful — these are batch phone uploads).
+// ---- Before/after pairs -------------------------------------------------
+{
+  const abs = path.join(ROOT, BA_DIR);
+  const outDir = path.join(OUT, "before-after");
+  const pairs = [];
+  if (existsSync(abs)) {
+    await mkdir(outDir, { recursive: true });
+    const files = (await readdir(abs))
+      .filter((f) => /\.(jpe?g|png)$/i.test(f))
+      .sort();
+
+    async function processBA(file, role, pairNum) {
+      const buf = await readFile(path.join(abs, file));
+      const id = `ba${String(pairNum).padStart(2, "0")}-${role}`;
+      let base = sharp(buf).rotate();
+      // Phone/IG screenshots arrive letterboxed — trim uniform borders so
+      // the slider isn't full of black bars. Real photos (≤4:3-ish) skip it.
+      const meta = await sharp(await base.clone().toBuffer()).metadata();
+      if (meta.height / meta.width > 1.6) {
+        base = base.trim({ threshold: 40 });
+      }
+      let largest = null;
+      const emitted = [];
+      for (const w of WIDTHS) {
+        const info = await base
+          .clone()
+          .resize({ width: w, withoutEnlargement: true })
+          .webp({ quality: w === 480 ? 72 : 78 })
+          .toFile(path.join(outDir, `${id}-w${w}.webp`));
+        emitted.push(w);
+        if (!largest || info.width > largest.width) largest = info;
+      }
+      return {
+        id,
+        width: largest.width,
+        height: largest.height,
+        widths: emitted,
+      };
+    }
+
+    for (let p = 0; p * 2 + 1 < files.length; p++) {
+      const before = await processBA(files[p * 2], "before", p + 1);
+      const after = await processBA(files[p * 2 + 1], "after", p + 1);
+      pairs.push({ pair: p + 1, before, after });
+    }
+    await writeFile(BA_MANIFEST, JSON.stringify(pairs, null, 1));
+    console.log(`Before/after: ${pairs.length} pairs written`);
+  } else {
+    console.warn(`!! missing before/after folder: ${BA_DIR}`);
+  }
+}
+
 const categoryOrder = [...new Set(SOURCES.map((s) => s.category))];
 entries.sort(
   (a, b) =>
@@ -132,5 +208,5 @@ for (const e of entries) counts[e.category] = (counts[e.category] ?? 0) + 1;
 console.log("\nManifest written:", path.relative(ROOT, MANIFEST));
 console.log("Per-category counts:", counts);
 console.log(
-  `Total: ${entries.length} (processed ${processed}, reused ${skipped}, exact duplicates skipped ${duplicates})`,
+  `Total: ${entries.length} (processed ${processed}, reused ${skipped}, exact duplicates skipped ${duplicates}, screenshots excluded ${screenshots})`,
 );

@@ -23,6 +23,7 @@ export function Footer() {
                 {n.label}
               </Link>
             ))}
+            <Link href="/estimate">Free Estimate</Link>
           </div>
           <div>
             <Link className="btn btn-light" href="/estimate">

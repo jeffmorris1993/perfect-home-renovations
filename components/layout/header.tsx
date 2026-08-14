@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { nav, site } from "@/lib/site";
 
-// Sticky pill-style nav used on inner pages. The home page hero renders its
-// own transparent film bar instead (see components/home/hero.tsx).
+// Sticky dark film-style nav used on inner pages, per the design's site.js
+// (nav-film variant). The home page hero renders its own transparent bar.
 export function Header({ brand }: { brand: React.ReactNode }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -22,12 +22,12 @@ export function Header({ brand }: { brand: React.ReactNode }) {
 
   return (
     <>
-      <header className="nav nav-canvas">
+      <header className="nav nav-film">
         <div className="container nav-inner">
-          <Link href="/" aria-label="Perfect Home Renovation home">
+          <Link className="brand" href="/" aria-label="Perfect Home Renovation home">
             {brand}
           </Link>
-          <nav className="nav-links pill">
+          <nav className="nav-links film">
             {nav.map((n) => (
               <Link
                 key={n.href}
@@ -39,7 +39,7 @@ export function Header({ brand }: { brand: React.ReactNode }) {
             ))}
           </nav>
           <div className="nav-right">
-            <Link className="nav-pill-cta dark" href="/estimate">
+            <Link className="nav-pill-cta" href="/estimate">
               Get a Free Estimate
             </Link>
             <button

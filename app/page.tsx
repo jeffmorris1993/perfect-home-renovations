@@ -157,7 +157,10 @@ export default function Home() {
           </div>
           <Reveal className="btn-row mt-l">
             <Link className="btn btn-ghost" href="/portfolio">
-              See the full portfolio <span className="arr">&rarr;</span>
+              See featured projects <span className="arr">&rarr;</span>
+            </Link>
+            <Link className="btn btn-ghost" href="/gallery">
+              Browse all photos <span className="arr">&rarr;</span>
             </Link>
           </Reveal>
         </div>
@@ -255,7 +258,7 @@ export default function Home() {
               <h2 className="h1">Homeowners who&apos;d hire us again.</h2>
             </Reveal>
           </div>
-          <div className="grid cols-3 mt-l" style={{ "--g": "20px" } as React.CSSProperties}>
+          <div className="grid cols-3 trio mt-l" style={{ "--g": "20px" } as React.CSSProperties}>
             {testimonials.map((t) => (
               <Reveal key={t.name}>
                 <figure className="quote">
