@@ -2122,3 +2122,21 @@ p a:not(.btn):not(.link-arrow):hover,
 .bg-ink .ba-cap {
   color: var(--gray-2);
 }
+
+/* privacy policy prose */
+.privacy-body {
+  max-width: 820px;
+}
+.privacy-section {
+  margin-top: clamp(30px, 4vw, 44px);
+}
+.privacy-section h2 {
+  margin-bottom: 12px;
+}
+.privacy-section p {
+  color: var(--gray);
+  max-width: 68ch;
+}
+.privacy-section p + p {
+  margin-top: 12px;
+}

@@ -33,7 +33,12 @@ export function Footer() {
         </div>
         <div className="footer-bottom">
           <span>&copy; 2026 Perfect Home Renovation &middot; {site.region}</span>
-          <span>Licensed &amp; Insured &middot; Free on-site consultations</span>
+          <span>
+            Licensed &amp; Insured &middot;{" "}
+            <Link className="footer-credit" href="/privacy">
+              Privacy Policy
+            </Link>
+          </span>
           <span>
             Built by{" "}
             <a
