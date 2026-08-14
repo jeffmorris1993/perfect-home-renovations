@@ -646,6 +646,17 @@ p {
   letter-spacing: 0.08em;
   color: var(--gray-2);
 }
+.footer-credit {
+  border-bottom: 1px solid var(--line-d);
+  padding-bottom: 1px;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+.footer-credit:hover {
+  color: var(--brass);
+  border-color: var(--brass);
+}
 
 /* marquee strip */
 .strip {

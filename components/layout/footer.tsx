@@ -34,6 +34,16 @@ export function Footer() {
         <div className="footer-bottom">
           <span>&copy; 2026 Perfect Home Renovation &middot; {site.region}</span>
           <span>Licensed &amp; Insured &middot; Free on-site consultations</span>
+          <span>
+            Built by{" "}
+            <a
+              className="footer-credit"
+              href="https://sirromstudios.com"
+              rel="noopener"
+            >
+              Sirrom Studios
+            </a>
+          </span>
         </div>
       </div>
     </footer>
