@@ -5,7 +5,7 @@ export const site = {
   phoneHref: "tel:+13135024555",
   phoneE164: "+13135024555",
   region: "Metro Detroit, MI",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://perfect-home-renovations.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.perfecthomereno.com",
 } as const;
 
 export const nav = [

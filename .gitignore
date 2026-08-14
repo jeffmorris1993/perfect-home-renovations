@@ -43,3 +43,9 @@ next-env.d.ts
 # photo originals (never committed; processed via npm run photos)
 /wetransfer_*/
 .idea/
+
+# allow the env template (no secret values) while keeping real env files ignored
+!.env.example
+
+# raw hero video source (already copied to public/media)
+/Create_one_seamless_cinematic.mp4

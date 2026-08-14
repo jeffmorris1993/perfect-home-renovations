@@ -48,10 +48,10 @@ export const estimateSchema = z.object({
   projectType: z.enum(projectTypes, {
     message: "Please pick a project type",
   }),
-  budget: z.string().max(60).optional().or(z.literal("")),
-  timeline: z.string().max(60).optional().or(z.literal("")),
+  budget: z.enum(budgetRanges).optional().or(z.literal("")),
+  timeline: z.enum(timelines).optional().or(z.literal("")),
   message: z.string().max(4000).optional().or(z.literal("")),
-  contactMethod: z.string().max(30).optional().or(z.literal("")),
+  contactMethod: z.enum(contactMethods).optional().or(z.literal("")),
   // Honeypot — humans never see or fill this.
   company: z.string().max(200).optional().or(z.literal("")),
 });
