@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/og.jpg", width: 1200, height: 630 }],
   },
+  // Per-page canonical on the real domain, so the *.vercel.app copies of
+  // these pages never compete with it in search.
+  alternates: { canonical: "./" },
 };
 
 export const viewport: Viewport = {
