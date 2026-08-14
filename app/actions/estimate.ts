@@ -102,30 +102,81 @@ export async function submitEstimate(
     });
   }
 
-  const rows: [string, string][] = [
+  // Branded lead email. Tables + inline styles only, for email-client compat.
+  const contactRows: [string, string][] = [
     ["Name", data.name],
     ["Phone", data.phone],
     ["Email", data.email],
     ["Location", data.location],
+  ];
+  const projectRows: [string, string][] = [
     ["Project type", data.projectType],
     ["Budget", data.budget || "Not provided"],
-    ["Timeline", data.timeline || "Not provided"],
-    ["Preferred contact", data.contactMethod || "Not provided"],
+    ["Desired timeline", data.timeline || "Not provided"],
+    ["Preferred contact", data.contactMethod || "No preference"],
+    [
+      "Photos",
+      attachments.length
+        ? `${attachments.length} attached below`
+        : "None attached",
+    ],
   ];
 
+  const row = ([k, v]: [string, string], last: boolean) => `
+    <tr>
+      <td style="padding:11px 16px;border-bottom:${last ? "0" : "1px solid #ececea"};font:500 11px/1.4 'Courier New',monospace;letter-spacing:1.5px;text-transform:uppercase;color:#8b9094;white-space:nowrap;vertical-align:top">${esc(k)}</td>
+      <td style="padding:11px 16px;border-bottom:${last ? "0" : "1px solid #ececea"};font:600 15px/1.5 Helvetica,Arial,sans-serif;color:#101112;text-align:right">${esc(v)}</td>
+    </tr>`;
+  const card = (title: string, rows: [string, string][]) => `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fcfcfa;border:1px solid #e4e4e0;border-collapse:separate;margin:0 0 16px">
+      <tr><td style="padding:12px 16px 0;font:700 11px/1 'Courier New',monospace;letter-spacing:2px;text-transform:uppercase;color:#7e6237">${esc(title)}</td></tr>
+      <tr><td style="padding:4px 0 0">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+          ${rows.map((r, i) => row(r, i === rows.length - 1)).join("")}
+        </table>
+      </td></tr>
+    </table>`;
+
   const html = `
-    <h2 style="font-family:sans-serif">New estimate request</h2>
-    <table style="font-family:sans-serif;border-collapse:collapse">
-      ${rows
-        .map(
-          ([k, v]) =>
-            `<tr><td style="padding:4px 12px 4px 0;color:#666">${esc(k)}</td><td style="padding:4px 0"><strong>${esc(v)}</strong></td></tr>`,
-        )
-        .join("")}
+  <div style="margin:0;padding:24px 12px;background:#f5f5f3">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:0 auto">
+      <tr>
+        <td style="background:#101112;padding:26px 28px">
+          <div style="font:800 20px/1.2 Helvetica,Arial,sans-serif;letter-spacing:-0.3px;color:#fcfcfa">Perfect Home Renovation</div>
+          <div style="font:500 11px/1 'Courier New',monospace;letter-spacing:2.5px;text-transform:uppercase;color:#9c7c4e;padding-top:9px">New estimate request</div>
+        </td>
+      </tr>
+      <tr>
+        <td style="background:#ffffff;border:1px solid #e4e4e0;border-top:0;padding:24px 22px">
+          ${card("Contact", contactRows)}
+          ${card("Project", projectRows)}
+          ${
+            data.message
+              ? `
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fcfcfa;border:1px solid #e4e4e0;border-left:3px solid #7e6237;border-collapse:separate">
+            <tr><td style="padding:14px 16px 0;font:700 11px/1 'Courier New',monospace;letter-spacing:2px;text-transform:uppercase;color:#7e6237">Project details</td></tr>
+            <tr><td style="padding:10px 16px 16px;font:400 15px/1.65 Helvetica,Arial,sans-serif;color:#33363a">${esc(data.message).replace(/\n/g, "<br>")}</td></tr>
+          </table>`
+              : ""
+          }
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px">
+            <tr>
+              <td align="center" style="padding:0">
+                <a href="tel:${esc(data.phone.replace(/[^+\d]/g, ""))}" style="display:inline-block;background:#7e6237;color:#ffffff;font:600 13px/1 Helvetica,Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:14px 26px;margin:0 5px 8px">Call ${esc(data.name.split(" ")[0])}</a>
+                <a href="mailto:${esc(data.email)}" style="display:inline-block;background:#101112;color:#ffffff;font:600 13px/1 Helvetica,Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:14px 26px;margin:0 5px 8px">Reply by email</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:16px 8px;font:400 12px/1.6 Helvetica,Arial,sans-serif;color:#8b9094;text-align:center">
+          Sent from the perfect-home-renovations estimate form &middot; ${new Date().toLocaleString("en-US", { timeZone: "America/Detroit", dateStyle: "long", timeStyle: "short" })} ET<br>
+          Replying to this email goes straight to ${esc(data.name)}.
+        </td>
+      </tr>
     </table>
-    ${data.message ? `<p style="font-family:sans-serif"><strong>Message:</strong><br>${esc(data.message).replace(/\n/g, "<br>")}</p>` : ""}
-    ${attachments.length ? `<p style="font-family:sans-serif;color:#666">${attachments.length} photo(s) attached.</p>` : ""}
-  `;
+  </div>`;
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.ESTIMATE_TO_EMAIL ?? "morrisjeffjr1993@gmail.com";
@@ -151,20 +202,29 @@ export async function submitEstimate(
   // Defense-in-depth: strip CR/LF from values used in the subject header.
   const safeName = data.name.replace(/[\r\n]+/g, " ").slice(0, 120);
 
+  const text = [
+    "New estimate request",
+    "",
+    ...contactRows.concat(projectRows).map(([k, v]) => `${k}: ${v}`),
+    ...(data.message ? ["", "Project details:", data.message] : []),
+  ].join("\n");
+
   try {
     const resend = new Resend(apiKey);
-    const { error } = await resend.emails.send({
+    const { data: sent, error } = await resend.emails.send({
       from,
       to,
       replyTo: data.email,
       subject: `Estimate request from ${safeName} (${data.projectType})`,
       html,
+      text,
       attachments: attachments.length ? attachments : undefined,
     });
     if (error) {
-      console.error("[estimate] Resend error:", error.name);
+      console.error("[estimate] Resend error:", error.name, error.message);
       return { status: "error", message: GENERIC_ERROR };
     }
+    console.log("[estimate] Sent via Resend, id:", sent?.id);
   } catch (err) {
     console.error(
       "[estimate] Unexpected send failure:",
