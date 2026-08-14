@@ -24,7 +24,7 @@ export const services = [
     bullets: [
       "Curbless showers & large-format tile",
       "Heated floors and modern ventilation",
-      "Typical timeline: 3 to 5 weeks",
+      "Glass enclosures & custom vanities",
     ],
     cta: "Get a bathroom estimate",
     tag: "Most Requested",
@@ -39,7 +39,7 @@ export const services = [
     bullets: [
       "Wall removal and structural openings",
       "Custom cabinetry and stone surfaces",
-      "Typical timeline: 5 to 8 weeks",
+      "Islands, storage & lighting design",
     ],
     cta: "Get a kitchen estimate",
     photoCategory: "kitchens",
@@ -167,10 +167,6 @@ export const faqs = [
   {
     q: "Are you licensed and insured?",
     a: "Fully licensed and insured for residential construction across Metro Detroit, with permits pulled on every applicable job.",
-  },
-  {
-    q: "Do you work on older Detroit homes?",
-    a: "Constantly. Much of the metro's housing stock is pre-1960. We specialize in modernizing older homes, electrical, plumbing, and layout, while respecting the character that makes them worth saving.",
   },
 ] as const;
 

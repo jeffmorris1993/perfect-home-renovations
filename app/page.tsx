@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import { Hero } from "@/components/home/hero";
 import { Faq } from "@/components/home/faq";
@@ -22,14 +23,17 @@ import { pick } from "@/lib/portfolio";
 const fwSizes = "(min-width: 820px) 56vw, 92vw";
 const fwStackSizes = "(min-width: 820px) 40vw, 92vw";
 
+// One run of the marquee. The track holds two identical runs and animates
+// translateX(-50%), so the run's children must be a flat word/slash sequence
+// for the loop to be seamless.
 function MarqueeRun() {
   return (
     <span>
       {marqueeItems.map((item) => (
-        <span key={item}>
+        <Fragment key={item}>
           <span>{item}</span>
           <span className="dot">/</span>
-        </span>
+        </Fragment>
       ))}
     </span>
   );

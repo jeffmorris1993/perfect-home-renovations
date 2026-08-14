@@ -1588,10 +1588,11 @@ section.film {
   animation: filmUp 1s cubic-bezier(0.2, 0.75, 0.2, 1) 0.6s both;
 }
 .film-sub {
-  font-size: clamp(0.85rem, 1vw, 1rem);
+  font-size: clamp(0.66rem, 2.2vw, 1rem);
   letter-spacing: 0.03em;
   color: #fff;
   margin: 0;
+  white-space: nowrap;
   animation: filmUp 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.95s both;
 }
 .film-actions {
