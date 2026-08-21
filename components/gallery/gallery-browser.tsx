@@ -4,6 +4,7 @@ import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Lightbox, type LightboxItem } from "./lightbox";
 import { BeforeAfter } from "./before-after";
+import { useEagerNear } from "./use-eager-near";
 import {
   baPairs,
   categoryLabel,
@@ -38,6 +39,7 @@ function GalleryBrowserInner({
   const [page, setPage] = useState(1);
   const [lightbox, setLightbox] = useState<number | null>(null);
   const barRef = useRef<HTMLDivElement>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
 
   const isBA = filter === BA_KEY;
   const per = isBA ? PER_PAGE_BA : PER_PAGE;
@@ -95,6 +97,8 @@ function GalleryBrowserInner({
 
   const baCaption = (n: number) => `Project ${String(n).padStart(2, "0")}`;
 
+  useEagerNear(gridRef, [filter, page]);
+
   return (
     <>
       <div ref={barRef} className="gal-bar">
@@ -127,7 +131,7 @@ function GalleryBrowserInner({
       </div>
 
       {isBA ? (
-        <div className="ba-grid">
+        <div className="ba-grid" ref={gridRef}>
           {baPairs.slice(start, start + per).map((pair) => (
             <BeforeAfter
               key={pair.pair}
@@ -138,7 +142,7 @@ function GalleryBrowserInner({
           ))}
         </div>
       ) : (
-        <div className="gal-grid">
+        <div className="gal-grid" ref={gridRef}>
           {pool.slice(start, start + per).map((p, i) => (
             <button
               key={p.id}

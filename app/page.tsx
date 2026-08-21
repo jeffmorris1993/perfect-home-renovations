@@ -4,10 +4,10 @@ import { Hero } from "@/components/home/hero";
 import { Faq } from "@/components/home/faq";
 import { Brand } from "@/components/ui/logo";
 import { Reveal } from "@/components/ui/reveal";
+import { BeforeAfter } from "@/components/gallery/before-after";
 import {
   FinalCta,
   IxRail,
-  Photo,
   ProcessSection,
 } from "@/components/sections/shared";
 import {
@@ -18,10 +18,16 @@ import {
   testimonials,
   whyUs,
 } from "@/lib/site";
-import { pick } from "@/lib/portfolio";
+import { baPairs } from "@/lib/portfolio";
 
-const fwSizes = "(min-width: 820px) 56vw, 92vw";
-const fwStackSizes = "(min-width: 820px) 40vw, 92vw";
+// Featured pairs — deliberately different from the portfolio page's picks
+// so the two pages don't repeat each other.
+const featuredPairs = [
+  { pair: baPairs[4], caption: "Kitchen · Down to drywall and back" },
+  { pair: baPairs[5], caption: "Staircase · Taken back to the studs" },
+  { pair: baPairs[21], caption: "Bathroom · Gutted to spa bath" },
+  { pair: baPairs[10], caption: "Exterior · Brought back to life" },
+];
 
 // One run of the marquee. The track holds two identical runs and animates
 // translateX(-50%), so the run's children must be a flat word/slash sequence
@@ -100,71 +106,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FINISHED WORK */}
-      <section className="section bg-white">
+      {/* BEFORE & AFTER */}
+      <section className="section bg-ink">
         <div className="container">
           <div className="ix">
             <IxRail num="02" label="Proof, not promises" />
             <Reveal>
-              <h2 className="h1">The finished work.</h2>
+              <h2 className="h1">See the difference.</h2>
               <p className="lead mt-m">
-                Dated, dark, or dysfunctional going in. Built to live in for
-                the next twenty years coming out. Recent Metro Detroit work,
-                photographed on completion day.
+                Drag the handle to see what these Metro Detroit spaces looked
+                like the day we started. Same room, same angle — just
+                finished.
               </p>
             </Reveal>
           </div>
-          <div className="fw mt-l">
-            <Reveal className="fw-lead">
-              <figure>
-                <Photo
-                  photo={pick("bathrooms", 0)}
-                  sizes={fwSizes}
-                  alt="Remodeled primary bath, Metro Detroit"
-                />
-                <figcaption>
-                  <span className="fw-cap">Primary bath remodel</span>
-                  <span className="fw-sub">
-                    Full gut · Custom tile · Modern fixtures
-                  </span>
-                </figcaption>
-              </figure>
-            </Reveal>
-            <div className="fw-stack">
-              <Reveal className="fw-item">
-                <figure>
-                  <Photo
-                    photo={pick("basements", 0)}
-                    sizes={fwStackSizes}
-                    alt="Finished lower level, Metro Detroit"
-                  />
-                  <figcaption>
-                    <span className="fw-cap">Basement finishing</span>
-                    <span className="fw-sub">Lower-level living space</span>
-                  </figcaption>
-                </figure>
+          <div
+            className="grid cols-2 ba-featured mt-l"
+            style={{ "--g": "26px" } as React.CSSProperties}
+          >
+            {featuredPairs.map((f) => (
+              <Reveal key={f.caption}>
+                <BeforeAfter pair={f.pair} caption={f.caption} dark />
               </Reveal>
-              <Reveal className="fw-item">
-                <figure>
-                  <Photo
-                    photo={pick("kitchens", 0)}
-                    sizes={fwStackSizes}
-                    alt="Remodeled kitchen, Metro Detroit"
-                  />
-                  <figcaption>
-                    <span className="fw-cap">Kitchen remodel</span>
-                    <span className="fw-sub">Open layout · New cabinetry</span>
-                  </figcaption>
-                </figure>
-              </Reveal>
-            </div>
+            ))}
           </div>
           <Reveal className="btn-row mt-l">
-            <Link className="btn btn-ghost" href="/portfolio">
-              See featured projects <span className="arr">&rarr;</span>
+            <Link className="btn btn-outline-light" href="/gallery?f=ba">
+              See all before &amp; after pairs <span className="arr">&rarr;</span>
             </Link>
-            <Link className="btn btn-ghost" href="/gallery">
-              Browse all photos <span className="arr">&rarr;</span>
+            <Link className="btn btn-outline-light" href="/portfolio">
+              See featured projects <span className="arr">&rarr;</span>
             </Link>
           </Reveal>
         </div>

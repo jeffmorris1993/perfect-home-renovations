@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "photos": "node scripts/build-portfolio.mjs"
+    "photos": "node scripts/build-portfolio.mjs",
+    "video": "node scripts/build-video.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.7.1",

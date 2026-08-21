@@ -1,0 +1,32 @@
+{
+  "poster": {
+    "src": "/media/hero-poster-1920-4f54a09063.jpg",
+    "srcSet": "/media/hero-poster-960-54f474d8d5.jpg 960w, /media/hero-poster-1920-4f54a09063.jpg 1920w",
+    "width": 1920,
+    "height": 1080
+  },
+  "landscape": {
+    "hi": {
+      "src": "/media/hero-land-1080-3d034e8584.mp4",
+      "width": 1920,
+      "height": 1080
+    },
+    "lo": {
+      "src": "/media/hero-land-720-7ff605348f.mp4",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "portrait": {
+    "hi": {
+      "src": "/media/hero-port-1440-10a46c8b1d.mp4",
+      "width": 810,
+      "height": 1440
+    },
+    "lo": {
+      "src": "/media/hero-port-1280-3a32492420.mp4",
+      "width": 720,
+      "height": 1280
+    }
+  }
+}

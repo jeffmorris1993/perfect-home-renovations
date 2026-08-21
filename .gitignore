@@ -47,5 +47,6 @@ next-env.d.ts
 # allow the env template (no secret values) while keeping real env files ignored
 !.env.example
 
-# raw hero video source (already copied to public/media)
+# raw hero video masters (never committed; renditions built via npm run video)
 /Create_one_seamless_cinematic.mp4
+/hero-source.mp4

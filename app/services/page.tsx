@@ -9,7 +9,7 @@ import {
   ProcessSection,
 } from "@/components/sections/shared";
 import { services, site } from "@/lib/site";
-import { pick, type PortfolioCategory } from "@/lib/portfolio";
+import { categoryLabel, pick, type PortfolioCategory } from "@/lib/portfolio";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -55,39 +55,66 @@ export default function ServicesPage() {
       <section className="section bg-white">
         <div className="container">
           <div className="svc-detail">
-            {services.map((s, i) => (
-              <Reveal key={s.num}>
-                <article className="sd">
-                  <div className="sd-rail">
-                    <span className="ix-num">{s.num}</span>
-                    {"tag" in s && s.tag ? (
-                      <span className={"tagBrass" in s && s.tagBrass ? "tag brass" : "tag"}>
-                        {s.tag}
-                      </span>
-                    ) : null}
-                  </div>
-                  <div className="sd-body">
-                    <h2 className="h2">{s.name}</h2>
-                    <p className="lead mt-s">{s.detail}</p>
-                    <ul className="sd-list">
-                      {s.bullets.map((b) => (
-                        <li key={b}>{b}</li>
-                      ))}
-                    </ul>
-                    <Link className="link-arrow" href="/estimate">
-                      {s.cta} →
-                    </Link>
-                  </div>
-                  <div className="sd-media">
-                    <Photo
-                      photo={pick(s.photoCategory as PortfolioCategory, i + 2)}
-                      sizes={mediaSizes}
-                      alt={`${s.name} — completed Metro Detroit project`}
-                    />
-                  </div>
-                </article>
-              </Reveal>
-            ))}
+            {services.map((s, i) => {
+              const filter =
+                "galleryFilter" in s
+                  ? (s.galleryFilter as PortfolioCategory)
+                  : null;
+              const photo = (
+                <Photo
+                  photo={pick(s.photoCategory as PortfolioCategory, i + 2)}
+                  sizes={mediaSizes}
+                  alt={filter ? "" : `${s.name} — completed Metro Detroit project`}
+                />
+              );
+              return (
+                <Reveal key={s.num}>
+                  <article className="sd">
+                    <div className="sd-rail">
+                      <span className="ix-num">{s.num}</span>
+                      {"tag" in s && s.tag ? (
+                        <span className={"tagBrass" in s && s.tagBrass ? "tag brass" : "tag"}>
+                          {s.tag}
+                        </span>
+                      ) : null}
+                    </div>
+                    <div className="sd-body">
+                      <h2 className="h2">{s.name}</h2>
+                      <p className="lead mt-s">{s.detail}</p>
+                      <ul className="sd-list">
+                        {s.bullets.map((b) => (
+                          <li key={b}>{b}</li>
+                        ))}
+                      </ul>
+                      <div className="btn-row">
+                        <Link className="link-arrow" href="/estimate">
+                          {s.cta} →
+                        </Link>
+                        {filter ? (
+                          <Link
+                            className="link-arrow"
+                            href={`/gallery?f=${filter}`}
+                          >
+                            See {categoryLabel(filter)} photos →
+                          </Link>
+                        ) : null}
+                      </div>
+                    </div>
+                    {filter ? (
+                      <Link
+                        className="sd-media"
+                        href={`/gallery?f=${filter}`}
+                        aria-label={`See ${categoryLabel(filter)} photos in the gallery`}
+                      >
+                        {photo}
+                      </Link>
+                    ) : (
+                      <div className="sd-media">{photo}</div>
+                    )}
+                  </article>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </section>

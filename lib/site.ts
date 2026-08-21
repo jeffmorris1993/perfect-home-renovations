@@ -29,6 +29,7 @@ export const services = [
     cta: "Get a bathroom estimate",
     tag: "Most Requested",
     photoCategory: "bathrooms",
+    galleryFilter: "bathrooms",
   },
   {
     num: "02",
@@ -43,6 +44,7 @@ export const services = [
     ],
     cta: "Get a kitchen estimate",
     photoCategory: "kitchens",
+    galleryFilter: "kitchens",
   },
   {
     num: "03",
@@ -57,6 +59,7 @@ export const services = [
     ],
     cta: "Get a basement estimate",
     photoCategory: "basements",
+    galleryFilter: "basements",
   },
   {
     num: "04",
@@ -71,6 +74,7 @@ export const services = [
     ],
     cta: "Plan a full renovation",
     photoCategory: "stairs",
+    galleryFilter: "stairs",
   },
   {
     num: "05",
@@ -85,6 +89,7 @@ export const services = [
     ],
     cta: "Get a flooring estimate",
     photoCategory: "fireplace",
+    galleryFilter: "fireplace",
   },
   {
     num: "06",
@@ -99,6 +104,7 @@ export const services = [
     ],
     cta: "Get a roofing estimate",
     photoCategory: "exterior",
+    galleryFilter: "exterior",
   },
   {
     num: "07",

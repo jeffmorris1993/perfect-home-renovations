@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { useEagerNear } from "./use-eager-near";
 import {
   categoryLabel,
   srcFor,
@@ -30,9 +31,12 @@ const cardSizes = "(min-width: 900px) 373px, (min-width: 620px) 50vw, 92vw";
 // Curated project cards with the design's show/hide filter bar.
 export function ProjectGrid({ projects }: { projects: Project[] }) {
   const [filter, setFilter] = useState<string>("all");
+  const gridRef = useRef<HTMLDivElement>(null);
   const visible = projects.filter(
     (p) => filter === "all" || p.cat === filter,
   );
+
+  useEagerNear(gridRef, [filter]);
 
   return (
     <>
@@ -47,7 +51,11 @@ export function ProjectGrid({ projects }: { projects: Project[] }) {
           </button>
         ))}
       </div>
-      <div className="grid cols-3 proj-grid mt-l" style={{ "--g": "22px" } as React.CSSProperties}>
+      <div
+        ref={gridRef}
+        className="grid cols-3 proj-grid mt-l"
+        style={{ "--g": "22px" } as React.CSSProperties}
+      >
         {visible.map((p) => (
           <Link key={p.title} className="proj" href="/gallery">
             <div className="proj-img">

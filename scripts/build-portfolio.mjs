@@ -33,7 +33,10 @@ const SOURCES = [
 const BA_DIR = "wetransfer_before-and-after_2026-08-13_1436";
 const BA_MANIFEST = path.join(ROOT, "lib/ba-manifest.json");
 
-const WIDTHS = [480, 960, 1600];
+const WIDTHS = [480, 640, 960, 1600];
+// 640 exists for DPR-3 phone tiles (~585 device px) that would otherwise
+// jump straight to the 960 file.
+const qualityFor = (w) => (w <= 480 ? 72 : w <= 640 ? 74 : 78);
 const OUT = path.join(ROOT, "public/img/portfolio");
 const MANIFEST = path.join(ROOT, "lib/portfolio-manifest.json");
 
@@ -71,10 +74,13 @@ for (const { dir, category } of SOURCES) {
     }
     seenIds.add(id);
 
+    // Reuse only when every *currently targeted* width exists on disk, not
+    // the widths recorded at the time the entry was built — otherwise adding
+    // a tier to WIDTHS would never backfill already-processed photos.
     const existing = priorById.get(id);
     if (
       existing &&
-      existing.widths.every((w) =>
+      WIDTHS.every((w) =>
         existsSync(path.join(OUT, category, `${id}-w${w}.webp`)),
       )
     ) {
@@ -89,7 +95,7 @@ for (const { dir, category } of SOURCES) {
         }
         continue;
       }
-      entries.push(existing);
+      entries.push({ ...existing, widths: [...WIDTHS] });
       skipped++;
       continue;
     }
@@ -111,7 +117,7 @@ for (const { dir, category } of SOURCES) {
       const info = await base
         .clone()
         .resize({ width: w, withoutEnlargement: true })
-        .webp({ quality: w === 480 ? 72 : 78 })
+        .webp({ quality: qualityFor(w) })
         .toFile(path.join(OUT, category, `${id}-w${w}.webp`));
       // withoutEnlargement can emit the same size twice for small sources —
       // keep each emitted width once, keyed by requested width for stable URLs.
@@ -168,7 +174,7 @@ for (const { dir, category } of SOURCES) {
         const info = await base
           .clone()
           .resize({ width: w, withoutEnlargement: true })
-          .webp({ quality: w === 480 ? 72 : 78 })
+          .webp({ quality: qualityFor(w) })
           .toFile(path.join(outDir, `${id}-w${w}.webp`));
         emitted.push(w);
         if (!largest || info.width > largest.width) largest = info;
