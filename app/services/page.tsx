@@ -55,14 +55,17 @@ export default function ServicesPage() {
       <section className="section bg-white">
         <div className="container">
           <div className="svc-detail">
-            {services.map((s, i) => {
+            {services.map((s) => {
               const filter =
                 "galleryFilter" in s
                   ? (s.galleryFilter as PortfolioCategory)
                   : null;
               const photo = (
                 <Photo
-                  photo={pick(s.photoCategory as PortfolioCategory, i + 2)}
+                  photo={pick(
+                    s.photoCategory as PortfolioCategory,
+                    s.photoNum - 1,
+                  )}
                   sizes={mediaSizes}
                   alt={filter ? "" : `${s.name} — completed Metro Detroit project`}
                 />

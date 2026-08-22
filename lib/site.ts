@@ -29,6 +29,9 @@ export const services = [
     cta: "Get a bathroom estimate",
     tag: "Most Requested",
     photoCategory: "bathrooms",
+    // Card photo: 1-based position of the photo within its gallery
+    // category filter (client picks photos by their gallery number).
+    photoNum: 44,
     galleryFilter: "bathrooms",
   },
   {
@@ -44,6 +47,7 @@ export const services = [
     ],
     cta: "Get a kitchen estimate",
     photoCategory: "kitchens",
+    photoNum: 31,
     galleryFilter: "kitchens",
   },
   {
@@ -59,6 +63,7 @@ export const services = [
     ],
     cta: "Get a basement estimate",
     photoCategory: "basements",
+    photoNum: 51,
     galleryFilter: "basements",
   },
   {
@@ -74,6 +79,7 @@ export const services = [
     ],
     cta: "Plan a full renovation",
     photoCategory: "stairs",
+    photoNum: 27,
     galleryFilter: "stairs",
   },
   {
@@ -89,6 +95,7 @@ export const services = [
     ],
     cta: "Get a flooring estimate",
     photoCategory: "fireplace",
+    photoNum: 1,
     galleryFilter: "fireplace",
   },
   {
@@ -104,6 +111,7 @@ export const services = [
     ],
     cta: "Get a roofing estimate",
     photoCategory: "exterior",
+    photoNum: 20,
     galleryFilter: "exterior",
   },
   {
@@ -121,6 +129,7 @@ export const services = [
     tag: "Coming Soon",
     tagBrass: true,
     photoCategory: "exterior",
+    photoNum: 8,
   },
 ] as const;
 
