@@ -1,16 +1,20 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { faqs } from "@/lib/site";
+import { faqs as defaultFaqs } from "@/lib/site";
 
 // One-open-at-a-time accordion with the design's max-height animation.
-export function Faq() {
+export function Faq({
+  items = defaultFaqs,
+}: {
+  items?: readonly { q: string; a: string }[];
+}) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const panelRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   return (
     <div className="faq mt-m">
-      {faqs.map((f, i) => {
+      {items.map((f, i) => {
         const open = openIndex === i;
         return (
           <div key={f.q} className={open ? "faq-item open" : "faq-item"}>

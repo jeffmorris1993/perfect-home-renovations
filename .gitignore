@@ -50,3 +50,6 @@ next-env.d.ts
 # raw hero video masters (never committed; renditions built via npm run video)
 /Create_one_seamless_cinematic.mp4
 /hero-source.mp4
+
+# claude code local tooling
+/.claude/

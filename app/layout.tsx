@@ -66,7 +66,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(businessJsonLd).replace(/</g, "\\u003c"),
+          }}
         />
       </body>
     </html>

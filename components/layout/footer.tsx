@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
+import { seoServices } from "@/lib/seo";
 import { Brand } from "@/components/ui/logo";
 
 export function Footer() {
@@ -24,6 +25,13 @@ export function Footer() {
               </Link>
             ))}
             <Link href="/estimate">Free Estimate</Link>
+          </div>
+          <div className="footer-nav">
+            {seoServices.map((s) => (
+              <Link key={s.slug} href={`/services/${s.slug}`}>
+                {s.name}
+              </Link>
+            ))}
           </div>
           <div>
             <Link className="btn btn-light" href="/estimate">

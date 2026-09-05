@@ -3,13 +3,12 @@ import Link from "next/link";
 import { Header } from "@/components/layout/header";
 import { Brand } from "@/components/ui/logo";
 import { Reveal } from "@/components/ui/reveal";
-import {
-  FinalCta,
-  Photo,
-  ProcessSection,
-} from "@/components/sections/shared";
+import { Photo, ProcessSection } from "@/components/sections/shared";
 import { services, site } from "@/lib/site";
 import { categoryLabel, pick, type PortfolioCategory } from "@/lib/portfolio";
+import { seoServices } from "@/lib/seo";
+
+const slugByName = new Map(seoServices.map((s) => [s.name, s.slug]));
 
 export const metadata: Metadata = {
   title: "Services",
@@ -82,7 +81,15 @@ export default function ServicesPage() {
                       ) : null}
                     </div>
                     <div className="sd-body">
-                      <h2 className="h2">{s.name}</h2>
+                      <h2 className="h2">
+                        {slugByName.has(s.name) ? (
+                          <Link href={`/services/${slugByName.get(s.name)}`}>
+                            {s.name}
+                          </Link>
+                        ) : (
+                          s.name
+                        )}
+                      </h2>
                       <p className="lead mt-s">{s.detail}</p>
                       <ul className="sd-list">
                         {s.bullets.map((b) => (
