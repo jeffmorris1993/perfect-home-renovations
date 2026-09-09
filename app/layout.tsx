@@ -52,6 +52,7 @@ const businessJsonLd = {
   areaServed: areas.map((name) => ({ "@type": "City", name })),
   address: { "@type": "PostalAddress", addressRegion: "MI" },
   priceRange: "$$",
+  ...(site.googleMapsUrl ? { sameAs: [site.googleMapsUrl] } : {}),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

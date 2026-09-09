@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { Hero } from "@/components/home/hero";
 import { Faq } from "@/components/home/faq";
+import { ReviewsSection } from "@/components/home/reviews";
 import { Brand } from "@/components/ui/logo";
 import { Reveal } from "@/components/ui/reveal";
 import { BeforeAfter } from "@/components/gallery/before-after";
@@ -15,7 +16,6 @@ import {
   marqueeItems,
   services,
   site,
-  testimonials,
   whyUs,
 } from "@/lib/site";
 import { baPairs } from "@/lib/portfolio";
@@ -224,31 +224,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="section bg-paper">
-        <div className="container">
-          <div className="ix">
-            <IxRail num="07" label="In their words" />
-            <Reveal>
-              <h2 className="h1">Homeowners who&apos;d hire us again.</h2>
-            </Reveal>
-          </div>
-          <div className="grid cols-3 trio mt-l" style={{ "--g": "20px" } as React.CSSProperties}>
-            {testimonials.map((t) => (
-              <Reveal key={t.name}>
-                <figure className="quote">
-                  <div className="quote-stars">★★★★★</div>
-                  <blockquote>{t.quote}</blockquote>
-                  <figcaption>
-                    <strong>{t.name}</strong>
-                    <span className="mono">{t.meta}</span>
-                  </figcaption>
-                </figure>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* TESTIMONIALS — Google reviews when available, hardcoded fallback */}
+      <ReviewsSection />
 
       {/* FAQ */}
       <section className="section bg-white">

@@ -6,6 +6,9 @@ export const site = {
   phoneE164: "+13135024555",
   region: "Metro Detroit, MI",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.perfecthomereno.com",
+  // Google Business Profile listing (stable CID link; used for the
+  // LocalBusiness sameAs link and as the reviews attribution fallback).
+  googleMapsUrl: "https://maps.google.com/?cid=3739743063148619160",
 } as const;
 
 export const nav = [
