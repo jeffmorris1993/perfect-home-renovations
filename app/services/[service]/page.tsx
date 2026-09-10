@@ -116,6 +116,7 @@ export default async function ServicePage({
                     photo={photos[0]}
                     sizes={mediaSizes}
                     alt={`${svc.name}, completed Metro Detroit project`}
+                    eager
                   />
                 </div>
               </article>
@@ -136,15 +137,17 @@ export default async function ServicePage({
               {svc.phrase} looks like where you live:
             </p>
             <div className="btn-row mt-l" style={{ flexWrap: "wrap" }}>
-              {seoCities.map((c) => (
-                <Link
-                  key={c.slug}
-                  className="link-arrow"
-                  href={`/services/${svc.slug}/${c.slug}`}
-                >
-                  {c.name} →
-                </Link>
-              ))}
+              {seoCities
+                .filter((c) => svc.cityCopy?.[c.slug])
+                .map((c) => (
+                  <Link
+                    key={c.slug}
+                    className="link-arrow"
+                    href={`/services/${svc.slug}/${c.slug}`}
+                  >
+                    {c.name} →
+                  </Link>
+                ))}
             </div>
           </div>
         </section>

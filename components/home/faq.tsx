@@ -18,14 +18,16 @@ export function Faq({
         const open = openIndex === i;
         return (
           <div key={f.q} className={open ? "faq-item open" : "faq-item"}>
-            <button
-              className="faq-q"
-              aria-expanded={open}
-              onClick={() => setOpenIndex(open ? null : i)}
-            >
-              {f.q}
-              <span className="pm" />
-            </button>
+            <h3 className="faq-h">
+              <button
+                className="faq-q"
+                aria-expanded={open}
+                onClick={() => setOpenIndex(open ? null : i)}
+              >
+                {f.q}
+                <span className="pm" />
+              </button>
+            </h3>
             <div
               className="faq-a"
               ref={(el) => {

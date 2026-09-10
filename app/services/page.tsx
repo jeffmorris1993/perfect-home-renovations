@@ -54,7 +54,7 @@ export default function ServicesPage() {
       <section className="section bg-white">
         <div className="container">
           <div className="svc-detail">
-            {services.map((s) => {
+            {services.map((s, i) => {
               const filter =
                 "galleryFilter" in s
                   ? (s.galleryFilter as PortfolioCategory)
@@ -67,6 +67,7 @@ export default function ServicesPage() {
                   )}
                   sizes={mediaSizes}
                   alt={filter ? "" : `${s.name} — completed Metro Detroit project`}
+                  eager={i === 0}
                 />
               );
               return (

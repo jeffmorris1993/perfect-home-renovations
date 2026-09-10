@@ -44,7 +44,10 @@ export const viewport: Viewport = {
 
 const businessJsonLd = {
   "@context": "https://schema.org",
-  "@type": "HomeAndConstructionBusiness",
+  // GeneralContractor is a subtype of HomeAndConstructionBusiness; the @id
+  // lets Service.provider on service/city pages reference this node.
+  "@type": "GeneralContractor",
+  "@id": `${site.url}/#business`,
   name: site.name,
   telephone: site.phoneE164,
   url: site.url,

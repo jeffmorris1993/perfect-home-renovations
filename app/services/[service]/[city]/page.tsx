@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { Brand } from "@/components/ui/logo";
 import { Reveal } from "@/components/ui/reveal";
+import { Faq } from "@/components/home/faq";
 import { FinalCta, Photo } from "@/components/sections/shared";
 import { site } from "@/lib/site";
 import { categoryLabel, pick } from "@/lib/portfolio";
@@ -18,8 +19,10 @@ import {
 } from "@/lib/seo";
 
 export function generateStaticParams() {
+  // Only service+city combos with hand-written copy get a page; not every
+  // service covers every city.
   return cityPageServices.flatMap((s) =>
-    seoCities.map((c) => ({ service: s.slug, city: c.slug })),
+    Object.keys(s.cityCopy ?? {}).map((city) => ({ service: s.slug, city })),
   );
 }
 
@@ -53,9 +56,14 @@ export default async function ServiceCityPage({
   // Each city shows a different slice of the service's photo set.
   const cityIndex = seoCities.findIndex((c) => c.slug === town.slug);
   const photo = pick(svc.photoCategory, cityIndex * 3 + 2);
+  const strip = [5, 9, 13].map((o) => pick(svc.photoCategory, cityIndex * 3 + o));
 
-  const otherCities = seoCities.filter((c) => c.slug !== town.slug);
-  const otherServices = cityPageServices.filter((s) => s.slug !== svc.slug);
+  const otherCities = seoCities.filter(
+    (c) => c.slug !== town.slug && svc.cityCopy?.[c.slug],
+  );
+  const otherServices = cityPageServices.filter(
+    (s) => s.slug !== svc.slug && s.cityCopy?.[town.slug],
+  );
 
   return (
     <>
@@ -131,11 +139,51 @@ export default async function ServiceCityPage({
                     photo={photo}
                     sizes={mediaSizes}
                     alt={`${svc.name}, completed Metro Detroit project`}
+                    eager
                   />
                 </div>
               </article>
             </Reveal>
           </div>
+        </div>
+      </section>
+
+      <section className="section tight bg-white">
+        <div className="container">
+          <div className="eyebrow">Recent work</div>
+          <h2 className="h1 mt-s">
+            {categoryLabel(svc.photoCategory)} we&apos;ve completed.
+          </h2>
+          <div
+            className="grid cols-3 trio mt-l"
+            style={{ "--g": "16px" } as React.CSSProperties}
+          >
+            {strip.map((p) => (
+              <Reveal key={p.id}>
+                <Photo photo={p} sizes="(min-width: 900px) 380px, 92vw" />
+              </Reveal>
+            ))}
+          </div>
+          {svc.galleryFilter ? (
+            <div className="btn-row mt-m">
+              <Link
+                className="link-arrow"
+                href={`/gallery?f=${svc.galleryFilter}`}
+              >
+                Browse the full {categoryLabel(svc.galleryFilter)} gallery →
+              </Link>
+            </div>
+          ) : null}
+        </div>
+      </section>
+
+      <section className="section bg-paper">
+        <div className="container">
+          <div className="eyebrow">Common questions</div>
+          <h2 className="h1 mt-s">
+            {svc.name} in {town.name}, answered.
+          </h2>
+          <Faq items={svc.faqs} />
         </div>
       </section>
 

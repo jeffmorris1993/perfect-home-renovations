@@ -44,6 +44,12 @@ const nextConfig: NextConfig = {
     // Vercel additionally caps request bodies around 4.5MB.
     serverActions: { bodySizeLimit: "5mb" },
   },
+  async redirects() {
+    return [
+      // People and directories guess /contact; the estimate page is it.
+      { source: "/contact", destination: "/estimate", permanent: true },
+    ];
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },

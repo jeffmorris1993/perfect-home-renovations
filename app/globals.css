@@ -926,6 +926,11 @@ p {
 .faq-item {
   border-bottom: 1px solid var(--line);
 }
+.faq-h {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
 .faq-q {
   width: 100%;
   display: flex;

@@ -31,6 +31,7 @@ export function Photo({
       height={photo.height}
       alt={alt ?? `${categoryLabel(photo.category)} renovation in Metro Detroit`}
       loading={eager ? "eager" : "lazy"}
+      fetchPriority={eager ? "high" : undefined}
       decoding="async"
       style={{ background: photo.color, ...style }}
     />
