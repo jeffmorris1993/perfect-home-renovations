@@ -160,7 +160,9 @@ export default async function ServiceCityPage({
           >
             {strip.map((p) => (
               <Reveal key={p.id}>
-                <Photo photo={p} sizes="(min-width: 900px) 380px, 92vw" />
+                <div className="strip-media">
+                  <Photo photo={p} sizes="(min-width: 900px) 380px, 92vw" />
+                </div>
               </Reveal>
             ))}
           </div>
