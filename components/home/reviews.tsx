@@ -18,6 +18,9 @@ export async function ReviewsSection() {
   const data = await getGoogleReviews();
 
   // Google reviews lead; hardcoded testimonials fill the remaining cards.
+  // The hardcoded set is copied from the same Google reviews, so drop any
+  // whose author the API already returned.
+  const fetchedAuthors = new Set(data?.reviews.map((r) => r.author) ?? []);
   const cards: Card[] = [
     ...(data?.reviews ?? []).map((r) => ({
       key: r.publishTime,
@@ -27,13 +30,15 @@ export async function ReviewsSection() {
       name: r.author,
       meta: `Google review · ${r.relativeTime}`,
     })),
-    ...testimonials.map((t) => ({
-      key: t.name,
-      stars: "★★★★★",
-      quote: t.quote,
-      name: t.name,
-      meta: t.meta,
-    })),
+    ...testimonials
+      .filter((t) => !fetchedAuthors.has(t.name))
+      .map((t) => ({
+        key: t.name,
+        stars: "★★★★★",
+        quote: t.quote,
+        name: t.name,
+        meta: t.meta,
+      })),
   ].slice(0, GRID_SIZE);
 
   return (

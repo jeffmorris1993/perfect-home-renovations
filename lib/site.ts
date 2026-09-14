@@ -148,24 +148,29 @@ export const areas = [
   "Huntington Woods",
 ] as const;
 
+// Real Google reviews, hand-copied while the Places API catches up (it sees
+// the 3 ratings but doesn't return review content yet). Once the API starts
+// returning these, the fetched versions lead the grid and these are deduped
+// by author name in ReviewsSection. Shana's is excerpted to fit the card,
+// same as the 300-char truncation applied to fetched reviews.
 export const testimonials = [
   {
     quote:
-      "“They turned a chopped-up 1940s layout into the open, light-filled home we always pictured, and they kept us in the loop the whole way.”",
-    name: "Maria & Devon T.",
-    meta: "Full Renovation · Pleasant Ridge",
+      "“I’ve been a customer of Perfect Home Renovations for several years now, and they have consistently done beautiful work in my home. Over the years, they’ve completed several projects for me, including my backyard fence, bi-level porch, wall oven installation in my kitchen, and most recently, a complete renovation of my basement.”",
+    name: "Shana Williams",
+    meta: "Google review",
   },
   {
     quote:
-      "“Our bathroom remodel came out exactly how we hoped. The crew respected our house and cleaned up every single day.”",
-    name: "Karen S.",
-    meta: "Bathroom · Royal Oak",
+      "“Great service, complete on time and finisher job earlier than promise time, great outstanding job.”",
+    name: "Ervin Andoni",
+    meta: "Google review",
   },
   {
     quote:
-      "“They finished our basement and we use it every day. Straightforward people, quality work, and no runaround.”",
-    name: "James R.",
-    meta: "Basement · Detroit",
+      "“Perfect Home Renovations just finished my project and did an amazing job. Everything came out exactly how I wanted, and the whole process was smooth from start to finish. Great communication, quality work, and a solid team. I’d definitely recommend them and will be using them again!”",
+    name: "Christen Morris",
+    meta: "Google review",
   },
 ] as const;
 

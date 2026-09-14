@@ -48,6 +48,14 @@ const nextConfig: NextConfig = {
     return [
       // People and directories guess /contact; the estimate page is it.
       { source: "/contact", destination: "/estimate", permanent: true },
+      // Shareable link for asking customers to leave a Google review.
+      // Temporary (307) so the GBP review URL can change without browsers
+      // having cached a permanent redirect.
+      {
+        source: "/reviews",
+        destination: "https://g.page/r/CZhlNH6APOYzEAI/review",
+        permanent: false,
+      },
     ];
   },
   async headers() {
