@@ -1,18 +1,10 @@
+import { ReviewCards, type ReviewCard } from "@/components/home/review-cards";
 import { IxRail } from "@/components/sections/shared";
 import { Reveal } from "@/components/ui/reveal";
 import { getGoogleReviews } from "@/lib/reviews";
 import { testimonials } from "@/lib/site";
 
 const GRID_SIZE = 3;
-
-type Card = {
-  key: string;
-  stars: string;
-  starsLabel?: string;
-  quote: string;
-  name: string;
-  meta: string;
-};
 
 export async function ReviewsSection() {
   const data = await getGoogleReviews();
@@ -21,7 +13,7 @@ export async function ReviewsSection() {
   // The hardcoded set is copied from the same Google reviews, so drop any
   // whose author the API already returned.
   const fetchedAuthors = new Set(data?.reviews.map((r) => r.author) ?? []);
-  const cards: Card[] = [
+  const cards: ReviewCard[] = [
     ...(data?.reviews ?? []).map((r) => ({
       key: r.publishTime,
       stars: "★".repeat(r.rating),
@@ -56,22 +48,7 @@ export async function ReviewsSection() {
             )}
           </Reveal>
         </div>
-        <div className="grid cols-3 trio mt-l" style={{ "--g": "20px" } as React.CSSProperties}>
-          {cards.map((c) => (
-            <Reveal key={c.key}>
-              <figure className="quote">
-                <div className="quote-stars" aria-label={c.starsLabel}>
-                  {c.stars}
-                </div>
-                <blockquote>{c.quote}</blockquote>
-                <figcaption>
-                  <strong>{c.name}</strong>
-                  <span className="mono">{c.meta}</span>
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
+        <ReviewCards cards={cards} />
         {data && (
           <p className="reviews-attribution mono mt-m">
             Reviews from Google ·{" "}

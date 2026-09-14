@@ -151,12 +151,12 @@ export const areas = [
 // Real Google reviews, hand-copied while the Places API catches up (it sees
 // the 3 ratings but doesn't return review content yet). Once the API starts
 // returning these, the fetched versions lead the grid and these are deduped
-// by author name in ReviewsSection. Shana's is excerpted to fit the card,
-// same as the 300-char truncation applied to fetched reviews.
+// by author name in ReviewsSection. Full text is kept here; the cards clamp
+// long quotes and a modal shows the whole review.
 export const testimonials = [
   {
     quote:
-      "“I’ve been a customer of Perfect Home Renovations for several years now, and they have consistently done beautiful work in my home. Over the years, they’ve completed several projects for me, including my backyard fence, bi-level porch, wall oven installation in my kitchen, and most recently, a complete renovation of my basement.”",
+      "“I’ve been a customer of Perfect Home Renovations for several years now, and they have consistently done beautiful work in my home. Over the years, they’ve completed several projects for me, including my backyard fence, bi-level porch, wall oven installation in my kitchen, and most recently, a complete renovation of my basement.\n\nTheir work is always clean, modern, and professionally done, and I really appreciate how efficiently they work without sacrificing quality. It’s been great having a company I can continue to call for projects both big and small.\n\nI highly recommend Perfect Home Renovations to anyone looking for quality, reliable home improvement work!”",
     name: "Shana Williams",
     meta: "Google review",
   },

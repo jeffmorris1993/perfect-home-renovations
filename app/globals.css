@@ -902,6 +902,69 @@ p {
   letter-spacing: 0.14em;
   color: var(--gray-2);
 }
+/* clickable review cards: uniform height, long quotes clamped to the card */
+.quote-cell {
+  height: 100%;
+}
+.quote-card {
+  height: 100%;
+  cursor: pointer;
+  transition: border-color 0.18s;
+}
+.quote-card:hover,
+.quote-card:focus-visible {
+  border-color: var(--brass);
+}
+.quote-card blockquote {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-line;
+}
+/* full-review modal: the inner .quote supplies the card look, the dialog
+   itself is just the frame (native <dialog> centers and traps focus) */
+.review-modal {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  width: min(640px, calc(100vw - 32px));
+  margin: auto;
+}
+.review-modal::backdrop {
+  background: rgba(8, 8, 10, 0.7);
+}
+.review-modal-quote {
+  max-height: 85dvh;
+  overflow-y: auto;
+}
+.review-modal-quote blockquote {
+  white-space: pre-line;
+}
+.review-modal-quote figcaption {
+  margin-top: 0;
+}
+.review-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-2);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.18s;
+}
+.review-modal-close:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
 .reviews-badge {
   margin-top: 10px;
   font-size: 0.76rem;

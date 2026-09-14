@@ -50,14 +50,6 @@ const FIELD_MASK = [
 
 const MIN_RATING = 4;
 const MAX_REVIEWS = 3;
-const MAX_TEXT_LENGTH = 300;
-
-function truncate(text: string): string {
-  if (text.length <= MAX_TEXT_LENGTH) return text;
-  const cut = text.slice(0, MAX_TEXT_LENGTH);
-  const lastSpace = cut.lastIndexOf(" ");
-  return `${cut.slice(0, lastSpace > 0 ? lastSpace : MAX_TEXT_LENGTH)}…`;
-}
 
 export async function getGoogleReviews(): Promise<GoogleReviewsData | null> {
   const apiKey = process.env.GOOGLE_PLACES_API_KEY;
@@ -93,7 +85,7 @@ export async function getGoogleReviews(): Promise<GoogleReviewsData | null> {
     .map((r) => ({
       author: r.authorAttribution!.displayName!,
       rating: r.rating!,
-      text: truncate(r.text!.text!.trim()),
+      text: r.text!.text!.trim(),
       relativeTime: r.relativePublishTimeDescription ?? "",
       publishTime: r.publishTime!,
     }))
