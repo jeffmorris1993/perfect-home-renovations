@@ -219,6 +219,10 @@ export async function submitEstimate(
 
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.ESTIMATE_TO_EMAIL;
+  // Optional silent copy of every lead (comma-separated for multiple).
+  const bcc = process.env.ESTIMATE_BCC_EMAIL?.split(",")
+    .map((e) => e.trim())
+    .filter(Boolean);
   const from =
     process.env.ESTIMATE_FROM_EMAIL ??
     "Perfect Home Renovation <onboarding@resend.dev>";
@@ -262,6 +266,7 @@ export async function submitEstimate(
     const { data: sent, error } = await resend.emails.send({
       from,
       to,
+      bcc: bcc?.length ? bcc : undefined,
       replyTo: data.email,
       subject: `Estimate request from ${safeName} (${data.projectType})`,
       html,
