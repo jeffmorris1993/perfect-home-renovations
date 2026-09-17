@@ -119,6 +119,37 @@ export const services = [
   },
   {
     num: "07",
+    name: "Handyman Services",
+    desc: "Small repairs and punch-list projects, handled with renovation-grade craftsmanship.",
+    detail:
+      "Drywall repair, trim and doors, fixture swaps, and the punch list that never gets shorter. The same crews that handle our full renovations, sized for the smaller jobs your home needs.",
+    bullets: [
+      "Drywall, trim, and paint touch-ups",
+      "Door, fixture, and hardware repairs",
+      "Punch lists and small home projects",
+    ],
+    cta: "Get handyman help",
+    photoCategory: "stairs",
+    photoNum: 5,
+  },
+  {
+    num: "08",
+    name: "Emergency Home Repairs",
+    desc: "Fast response for burst pipes, roof leaks, storm damage, and other urgent repairs.",
+    detail:
+      "When a pipe bursts, a storm takes shingles off, or water finds its way inside, we respond fast, stabilize the damage, and handle the permanent repair so one bad day doesn't become a bigger problem.",
+    bullets: [
+      "Burst pipe and water damage response",
+      "Roof leak and storm damage repairs",
+      "Board-up and damage stabilization",
+    ],
+    cta: "Get emergency help",
+    tag: "Fast Response",
+    photoCategory: "exterior",
+    photoNum: 14,
+  },
+  {
+    num: "09",
     name: "Custom Homes",
     desc: "Ground-up modern homes for Metro Detroit, launching soon.",
     detail:
@@ -250,5 +281,7 @@ export const marqueeItems = [
   "Full Renovations",
   "Flooring & Tile",
   "Roofing",
+  "Handyman Services",
+  "Emergency Repairs",
   "Custom Homes",
 ] as const;

@@ -13,7 +13,7 @@ const slugByName = new Map(seoServices.map((s) => [s.name, s.slug]));
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Bathroom and kitchen remodeling, basement finishing, full home renovations, flooring and tile, roofing, and custom homes across Metro Detroit.",
+    "Bathroom and kitchen remodeling, basement finishing, full home renovations, flooring and tile, roofing, handyman services, and emergency home repairs across Metro Detroit.",
 };
 
 const mediaSizes = "(min-width: 900px) 340px, 92vw";
