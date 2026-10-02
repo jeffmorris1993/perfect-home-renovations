@@ -180,7 +180,7 @@ export const areas = [
 ] as const;
 
 // Real Google reviews, hand-copied while the Places API catches up (it sees
-// the 3 ratings but doesn't return review content yet). Once the API starts
+// the live rating and count but doesn't return review content yet). Once the API starts
 // returning these, the fetched versions lead the grid and these are deduped
 // by author name in ReviewsSection. Full text is kept here; the cards clamp
 // long quotes and a modal shows the whole review.

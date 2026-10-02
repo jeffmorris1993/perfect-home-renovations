@@ -91,8 +91,9 @@ export async function getGoogleReviews(): Promise<GoogleReviewsData | null> {
     }))
     .sort((a, b) => b.publishTime.localeCompare(a.publishTime));
 
-  if (qualifying.length === 0) return null;
-
+  // Even with no qualifying review text yet (the API lags Maps on serving
+  // review content for young listings), the live rating/count still powers
+  // the badge; hardcoded testimonials fill the card grid.
   return {
     rating: place.rating,
     count: place.userRatingCount,
