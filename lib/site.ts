@@ -9,6 +9,16 @@ export const site = {
   // Google Business Profile listing (stable CID link; used for the
   // LocalBusiness sameAs link and as the reviews attribution fallback).
   googleMapsUrl: "https://maps.google.com/?cid=3739743063148619160",
+  // Official profiles elsewhere, joined with googleMapsUrl into the schema
+  // sameAs so Google ties them to the same business entity. URLs verified
+  // live 2026-10-02; the Facebook /p/ form is the page's canonical URL.
+  socialProfiles: [
+    "https://www.instagram.com/perfecthomerenovation/",
+    "https://www.tiktok.com/@perfecthomerenovation",
+    "https://www.facebook.com/p/Perfect_home_renovation-100029411274664/",
+    "https://www.houzz.com/professionals/general-contractors/perfect-home-renovation-pfvwus-pf~1673311050",
+    "https://dot.cards/perfecthomerenovation",
+  ],
 } as const;
 
 export const nav = [
