@@ -16,6 +16,7 @@ export const site = {
     "https://www.instagram.com/perfecthomerenovation/",
     "https://www.tiktok.com/@perfecthomerenovation",
     "https://www.facebook.com/p/Perfect_home_renovation-100029411274664/",
+    "https://www.youtube.com/channel/UCE0mSOhSKwMcKsujaB0vfDA",
     "https://www.houzz.com/professionals/general-contractors/perfect-home-renovation-pfvwus-pf~1673311050",
     "https://dot.cards/perfecthomerenovation",
   ],
